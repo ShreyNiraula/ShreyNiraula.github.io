@@ -1,2 +1,1 @@
-# ShreyNiraula.github.io
-mySite
+# mySite
