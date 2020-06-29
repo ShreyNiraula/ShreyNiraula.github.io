@@ -1,0 +1,29 @@
+{
+  "name": "shrey-gitsite",
+  "version": "1.0.0",
+  "description": "my site on github",
+  "main": "index.js",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyNiraula/ShreyNiraula.github.io.git"
+  },
+  "author": "Shrey Niraula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShreyNiraula/ShreyNiraula.github.io/issues"
+  },
+  "homepage": "https://github.com/ShreyNiraula/ShreyNiraula.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

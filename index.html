@@ -1,12 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Shrey Vlog</title>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shrey Site</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<!-- font icon import -->
+	<link rel='stylesheet' href='node_modules/font-awesome/css/font-awesome.min.css'>
+	<link rel = 'stylesheet' href ='node_modules/bootstrap-social/bootstrap-social.css'>
+	<link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-	On going...
-	Hello World
+	<!-- introduction = minfile + justme -->
+	<div class="container-fluid">
+		<div class="row row-introduction">
+			<!-- for minfile, make it fixed navbar for small screen -->
+			<div class="col-sm-3 col-12 col-minfile ">
+				<div class="row row-minfile-photo justify-content-center">
+					<!-- circular images -->
+					<img src="./images/me-profile.jpg" alt="profile_image" class="round-circle">
+				</div>
+				<div class="row row-minfile-menus justify-content-center">
+					<ul class="nav flex-column">  <!-- vertical stacking by flex-column -->
+						<li class="nav-item">
+						  <a class="nav-link active" href="#"><i class="fa fa-lg fa-user-circle-o"></i>       About Me</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="./photo.html"><i class="fa fa-lg fa-camera"></i>       My Photoshots</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-lg fa-video-camera"></i>       My Videos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-lg fa-tasks"></i>       My Projects</a>
+						  </li>
+						<li class="nav-item">
+							<!-- allow note for only superuser -->
+						  <a class="nav-link disabled" href="#"><i class="fa fa-lg fa-book"></i>       Academic</a>
+						  <!-- graduation-cap  -->
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><i class="fa fa-lg fa-phone"></i>       My Contacts</a>
+						</li>
+					  </ul>
+				</div>
+			</div>
 
+			<!-- for caroussel photos slide -->
+			<div class="col-sm col-12 col-justme">
+				<!-- background images with carousel property -->
+				some texts regarding me
+			</div>
+		</div>
+	</div>
+
+	<!-- container for pagelinks -->
+	<div class="container">
+		<div class="text-center">
+			About Me
+		</div>
+		<div class="row row-content text-center">
+			I am Shrey Niraula studying at pulchowk campus
+		</div>
+	</div>
+
+	<!-- footer for my links -->
+	<footer class='footer'>
+        <div class='container'>
+            <div class='row'>             
+                <div class='col-4 col-sm-4'>
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class='col-8 col-sm-4'>
+                    <h5>Our Address</h5>
+                    <address>
+		              121, Clear Water Bay Road<br>
+		              Clear Water Bay, Kowloon<br>
+		              HONG KONG<br>
+		              <i class='fa fa-phone fa-lg'></i>  +852 1234 5678<br>
+		              <i class='fa fa-fax fa-lg'></i>  +852 8765 4321<br>
+		              <i class='fa fa-envelope fa-lg'></i>    <a href="mailto:confusion@food.net">confusion@food.net</a>
+		           </address>
+                </div>
+                <!-- align-self-center VVVV important -->
+                <div class='col-12 col-sm-4 align-self-center'>
+                    <div class='text-center'>
+                      <!-- btn btn-social-icon btn-google' this is for button based on bootstrap social  -->
+                      <a class='btn btn-social-icon btn-google' href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                      <a class='btn btn-social-icon btn-facebook' href="http://www.facebook.com/profile.php?id="><i class="fa fa-google-plus fa-lg"></i></a>
+                      <a class='btn btn-social-icon btn-linked' href="http://www.linkedin.com/in/"><i class="fa fa-facebook fa-lg"></i></a>
+                      <a class='btn btn-social-icon btn-twitter' href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                      <a class='btn btn-social-icon btn-youtube' href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                      <a class='btn btn-social-icon btn-envelope' href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class='row justify-content-center' >   
+            <!-- col-auto takes the width size according to the content size -->
+            <!-- col-12 does not exactly align it at center            -->
+                <div class='col-auto'>
+                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+
+	
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

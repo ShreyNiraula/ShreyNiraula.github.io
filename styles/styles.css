@@ -1,0 +1,36 @@
+body{
+    padding:0;
+    margin:0;
+    /* background-color: rgb(166, 235, 170); */
+}
+
+.container-fluid{
+    min-height: 100vh;
+}
+.col-minfile{
+    background-color: white;
+}
+.row-minfile-photo{
+    /* background-color: rosybrown; */
+
+    
+
+}
+.round-circle{
+    width:100%;
+    border-radius: 50%;
+
+}
+.row-minfile-menus{
+    /* background-color: seagreen; */
+}
+
+.col-justme{
+    background-image: url('../images/me-president.jpg');
+    min-height: 100vh;
+
+}
+.text-center{ 
+    color:red
+}
+
