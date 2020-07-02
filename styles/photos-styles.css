@@ -1,0 +1,48 @@
+body{
+    background-color:#393939;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7); }
+    @media screen and (max-width: 992px) {
+      body {
+        font-size: 16px; } 
+}
+header{
+    padding: 3em 0;
+    background-color: #6e6e6e;
+    min-height: 10em;
+}
+header h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ff3a09;
+}
+header p{
+    color:white;
+}
+
+.col-photos{
+    /* background-color: rgb(169, 228, 174); */
+    padding: 0 1em;
+}
+img{
+    padding-top: 1em;
+
+
+        /* only this is needed to expand the image using full column */
+    width: 100%;        
+
+    /* filter: grayscale(0.4) brightness(1); */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.row .col-photos img:hover{
+    /* filter: grayscale(0) brightness(1); */
+}
+.footer{
+    margin-top: 3em;
+    background-color: #000;
+    min-height: 20em;
+}

@@ -1,41 +1,84 @@
 body{
-    padding:0;
-    margin:0;
-    /* background-color: rgb(166, 235, 170); */
+    background-color: #393939;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7); }
+    @media screen and (max-width: 992px) {
+      body {
+        font-size: 16px; }   
 }
-.row-introduction{
-    background-image: url('../images/me-president.jpg');
+.navbar{
+    padding: 1em;
+    background-color: #4e4e4e;
 }
-.col-minfile{
+#Navbar .nav-link{
+    color: #FF5A09;
+}
+#Navbar .nav-link:hover{
+    color: #fff;
+    /* border: #ff5a09 2px solid; */
+
+}
+
+
+.my-profiles{
+    margin-top: 5em;
+    /* padding: 5em 2em; */
+    
+}
+.my-profiles .container{
+    padding: 1em 1em;
+    background-color: #ff5a09;
+}
+.my-about{
+    padding: 5em 0;
+}
+.my-about .container{
+    padding: 1em 1em;
+    background-color: #4e4e4e;
+    color:white;
+}
+.my-photos{
+    padding:5em 0;
+}
+.my-photos .container{
+    padding: 1em 1em;
+    background-color: #ff5a09;
+}
+/* .my-videos{
+    padding:5em 0;
+}
+.my-videos .container{
+    padding: 1em 1em;
+    background-color: #4e4e4e;
+    color:white;
+} */
+.my-projects{
+    padding:5em 0;
+}
+.my-projects .container{
+    padding: 1em 1em;
+    background-color: #ff3a09;
+}
+.footer{
+    padding:5em 0;
+}
+/* .my-profile-intro {
+    background-image: url('../images/me-ocean-cropped.jpg') no-repeat; 
+    opacity: 1;
+    min-height: 746px;
+} */
+.my-profile-intro h3{    
+    opacity: 1;
+    font-weight: 500;
+    font-size:48px;
+}
+.footer{
+    background-color: #000;
+    min-height: 100px;
+}
+.card{
     background-color: white;
 }
-.col-minfile i{
-    color: rgb(38, 182, 55);
-}
-.col-minfile a{
-    color: rgb(23, 75, 53);
-}
-.col-minfile .card{
-    border-radius: 0;
-    /* box-shadow: 2px 2px 8px #94ebc2; */
-    border: none;
-}
-
-
-.col-justme{
-    
-    z-index: 2;
-    opacity:0.3
-}
-
-
-
-.footer{
-    background-color: rgb(32, 30, 30);
-    min-height: 30vh;
-}
-
-.btn-social-icon{
-    background-color: blanchedalmond;
-}
-
