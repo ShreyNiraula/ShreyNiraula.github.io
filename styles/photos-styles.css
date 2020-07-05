@@ -9,12 +9,28 @@ body{
       body {
         font-size: 16px; } 
 }
-header{
-    padding: 3em 0;
-    background-color: #6e6e6e;
-    min-height: 10em;
+.navbar{
+    padding: 1em;
+    background-color: #4e4e4e;
 }
-header h4{
+#Navbar-333 .nav-link{
+    color: #FF5A09;
+}
+#Navbar-333 .active{
+    color: #9ec592 !important;
+}
+#Navbar-333 .nav-link:hover{
+    color: #fff;
+    /* border: #ff5a09 2px solid; */
+
+}
+
+section{
+    padding: 1em 0;
+    background-color: #6e6e6e;
+    min-height: 6em;
+}
+section h4{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#ff3a09;
 }
