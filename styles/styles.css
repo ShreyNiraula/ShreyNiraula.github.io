@@ -25,6 +25,12 @@ body{
 
 }
 
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
+
 
 .my-profiles{
     margin-top: 5em;
