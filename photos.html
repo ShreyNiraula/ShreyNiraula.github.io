@@ -91,36 +91,36 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-4 col-photos">
-                <img class='img-pop-up' src="./images/mountain-sunrise.jpg" alt="">
-                <img src="./images/cat.jpg" alt="">
-                <img src="./images/oosaka-castle.jpg" alt="">
+                   <img class='img-pop-up' src="./images/mountain-sunrise.jpg" data-html='true' data-toggle="tooltip" data-placement="bottom" title='Mountain view from Sarankot Pokhara' > 
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/cat.jpg" title='Wild Cat in Kobe Zoo-Japan'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/oosaka-castle.jpg" title='Oosaka Castle-Japan'>
             </div>
             <div class="col-12 col-sm-4 col-photos">
-                <img src="./images/kinkakuji-edited.jpg">
-                <img src="./images/pegion-fullswing.jpg">
-                <img src="./images/pink-flower.jpg">
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/kinkakuji-edited.jpg" title='Golden Temple-Kyoto, Japan'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/pegion-fullswing.jpg" title='Pegion Flying'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/pink-flower.jpg" title='Pink flower in my garden'>
             </div>
             <div class="col-12 col-sm-4 col-photos">
-                <img src="./images/skytree-river.jpg">
-                <img src="./images/panda.jpg">
-                <img src='./images/red-rose.jpg'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/skytree-river.jpg" title='Sky tree and river-Tokyo, Japan'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/panda.jpg" title='Cute Panda in zoo-Kobe, Japan'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src='./images/red-rose.jpg' tite='Marvelous red rose in my garden'>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-4 col-photos">
-                <img src="./images/white-flower.jpg">
-                <img src="./images/pin-sunset.jpg">
-                <img src='./images/pink-rose.jpg'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/white-flower.jpg" title='Wonderful white flower in Garden'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/pin-sunset.jpg" title='Sunset shot from home'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src='./images/pink-rose.jpg' title='Majestic pink rose also in myy garden'>
             </div>
             <div class="col-12 col-sm-4 col-photos">
-                <img src="./images/sunrise.jpg">
-                <img src="./images/penguin.jpg">
-                <img src='./images/the-cloud.jpg'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/sunrise.jpg" title='Sunrise from Sarankot Pokhara'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/penguin.jpg" title='King Penguin-Kobe, Japan'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src='./images/the-cloud.jpg' title='Eye-falling majestic cloud'>
             </div>
             <div class="col-12 col-sm-4 col-photos">
-                <img src="./images/dammi.jpg">
-                <img src="./images/monkey.jpg">
-                <img src="./images/pegion-landing.jpg" alt="">
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/dammi.jpg" title='What is it exactly? I also dont know, but I love the most'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/monkey.jpg" title='Your friend-Kobe,Japan'>
+                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/pegion-landing.jpg" title='I wish I had more sharped zoomed DSLR photo for this majestic landing'>
             </div>
         </div>
 
@@ -172,6 +172,27 @@
     <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
+
+    <!-- how to specify selector in jquery -->
+    <!-- element, "p","button", "body" -->
+    <!-- id, #id, "#accordion" -->
+    <!-- classes, ".btn" -->
+    <!-- attributes, "[href]", "[data-target='...']" -->
+    <!-- current element, $(this) -->
+
+
+    <!-- Jquery Events -->
+    <!-- causes DOM events  -->
+    <!-- click, dbclick, mouseenter, mouseleave
+    keypress, keydown, keyup
+    submit, change, focus, blur (for form) 
+    window, resize, scroll, unload (for document) -->
 </body>
 
 </html>
