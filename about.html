@@ -133,7 +133,7 @@
                 <div class="col-12">
                     <h3>My Education Background</h3>
 
-                    <ul class="nav nav-tabs">
+                    <!-- <ul class="nav nav-tabs">
                         <li class='nav-item'>
                             <a href="#bachelor-degree" role='tab' data-toggle='tab' class="nav-link active">Bachelors
                             </a>
@@ -176,12 +176,66 @@
                             <p><i>Shizuoka, Japan</i></p>
                             <strong>Amazing, aint ?</strong>
                         </div>
-                    </div>
+                    </div> -->
 
+                    <div id='accordion'>
+                        <div class="card">
+                            <div class="card-header" role='tab' id='bachelor-degree-header'>
+                                <h3 class='mb-0'>
+                                    <a data-toggle='collapse' data-target='#bachelor-degree'>Bachelors in Electronics
+                                            and Communication Engineering</a></h3>
+                            </div>
+                            <div  class="collapse show" id="bachelor-degree" data-parent='#accordion'>
+                                <div class="card-body">
+                                    <h4>Pulchowk Engineering Campus-Tribhuvan University</h4>
+                                    <p><i>Pulchowk, Lalitpur</i></p>
+                                    <strong>Currently in 7th sem</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role='tab' id='highSchool-degree-header'>
+                                <h3 class='mb-0'>
+                                    <a data-toggle='collapse' data-target='#highSchool-degree'>HSEB Board- physical Group</a></h3>
+                            </div>
+                            <div  class="collapse" id="highSchool-degree" data-parent='#accordion'>
+                                <div class="card-body">
+                                    <h4>Capital Higher Secondary School</h4>
+                                    <p><i>Balkumari, Kathmandu</i></p>
+                                    <strong>Passed in 2016</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role='tab' id='school-degree-header'>
+                                <h3 class='mb-0'>
+                                    <a data-toggle='collapse' data-target='#school-degree'>SLC Board</a></h3>
+                            </div>
+                            <div  class="collapse" id="school-degree" data-parent='#accordion'>
+                                <div class="card-body">
+                                    <h4>Kanjirowa National School</h4>
+                                    <p><i>Balkumari, Kathmandu</i></p>
+                                    <strong>Passed in 2014</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role='tab' id='japan-degree-header'>
+                                <h3 class='mb-0'>
+                                    <a data-toggle='collapse' data-target='#japan-degree'>Enrolled in Japanese School</a></h3>
+                            </div>
+                            <div  class="collapse" id="japan-degree" data-parent='#accordion'>
+                                <div class="card-body">
+                                    <h4>Higasi Toyoda Elementary School</h4>
+                                    <p><i>Shizuoka, Japan</i></p>
+                                    <strong>Amazing, aint ?</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="my-skills">
@@ -287,7 +341,7 @@
                         </ul>
                         </li>
                         <h6>Backend Side</h6>
-                        <ul tyle='list-style-type: none;'>
+                        <ul style='list-style-type: none;'>
                             <li>Django, Flask</li>
                             <li>Concept of Node and Express</li>
                         </ul>
@@ -373,3 +427,5 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
+
+</html>
