@@ -122,19 +122,10 @@
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                            <div class="btn-group"
-                                id = 'carouselButtons'>
-                                <button class="btn btn-danger btn-sm"
-                                id = 'carousel-pause'>
-                                <span class='fa fa-pause'></span>
-                                </button>
-                                <button class="btn btn-success btn-sm"
-                                id = 'carousel-play'>
-                                <span class='fa fa-play'></span>
-                                </button>
-
-
-                            </div>
+                                
+                            <button class="btn btn-danger btn-sm" id="carouselButton">
+                                <span id="carousel-button-icon" class="fa fa-pause"></span>
+                            </button>
                         </div>
                     </div>
 
@@ -304,19 +295,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous">
     </script>
-    <script>
-        $(document).ready(function(){
-            $("#profile-carousel").carousel( { interval: 2000 } );
-            $("#carousel-pause").click(function(){
-                $("#profile-carousel").carousel('pause');
-            });
-            $("#carousel-play").click(function(){
-                $("#profile-carousel").carousel('cycle');
-            });
-        });
-    </script>
+    <script src='js/scripts.js'></script>
 
 
 </body>
-
 </html>

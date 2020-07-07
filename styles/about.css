@@ -33,6 +33,6 @@ body{
 }
 
 .footer{
-    background-color: #000;
-    min-height: 100px;
+    background-color:black;
+    min-height:100vh;
 }
