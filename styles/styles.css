@@ -13,16 +13,13 @@ body {
 .navbar {
   padding: 1em;
   background-color: #4e4e4e; }
-
-#Navbar-333 .nav-link {
-  color: #FF5A09; }
-
-#Navbar-333 .active {
-  color: #9ec592 !important; }
-
-#Navbar-333 .nav-link:hover {
-  color: #fff;
-  /* border: #ff5a09 2px solid; */ }
+  .navbar #Navbar-333 .nav-link {
+    color: #FF5A09; }
+  .navbar #Navbar-333 .active {
+    color: #9ec592 !important; }
+  .navbar #Navbar-333 .nav-link:hover {
+    color: #fff;
+    /* border: #ff5a09 2px solid; */ }
 
 #carouselButton {
   right: 0px;
@@ -32,25 +29,22 @@ body {
 .my-profiles {
   margin-top: 5em;
   /* padding: 5em 2em; */ }
-
-.my-profiles .container {
-  padding: 1em 1em;
-  background-color: #ff5a09; }
+  .my-profiles .my-profiles .container {
+    padding: 1em 1em;
+    background-color: #ff5a09; }
 
 .my-about {
   padding: 5em 0; }
-
-.my-about .container {
-  padding: 1em 1em;
-  background-color: #4e4e4e;
-  color: white; }
+  .my-about .container {
+    padding: 1em 1em;
+    background-color: #4e4e4e;
+    color: white; }
 
 .my-photos {
   padding: 5em 0; }
-
-.my-photos .container {
-  padding: 1em 1em;
-  background-color: #ff5a09; }
+  .my-photos .container {
+    padding: 1em 1em;
+    background-color: #ff5a09; }
 
 /* .my-videos{
     padding:5em 0;
@@ -62,39 +56,28 @@ body {
 } */
 .my-projects {
   padding: 5em 0; }
+  .my-projects .container {
+    padding: 1em 1em;
+    background-color: #ff3a09; }
 
-.my-projects .container {
-  padding: 1em 1em;
-  background-color: #ff3a09; }
-
-.card-body {
-  background-color: #4e4e4e; }
-
-.card-body .project-title {
-  color: #ff3a09; }
-
-.card-body .project-mini-description {
-  color: white; }
+.card {
+  background-color: white; }
+  .card .card-body {
+    background-color: #4e4e4e; }
+    .card .card-body .project-title {
+      color: #ff3a09; }
+    .card .card-body .project-mini-description {
+      color: white; }
 
 .project-clickfordetail a {
   color: #9ec592; }
 
-.footer {
-  padding: 5em 0; }
-
-/* .my-profile-intro {
-    background-image: url('../images/me-ocean-cropped.jpg') no-repeat; 
-    opacity: 1;
-    min-height: 746px;
-} */
 .my-profile-intro h3 {
   opacity: 1;
   font-weight: 500;
   font-size: 48px; }
 
 .footer {
+  padding: 5em 0;
   background-color: #000;
   min-height: 100px; }
-
-.card {
-  background-color: white; }
