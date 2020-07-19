@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shrey Site</title>
+    <title>Shrey</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
-    <!-- font icon import -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 
-    <!-- <link rel='stylesheet' href='node_modules/font-awesome/css/font-awesome.min.css'> -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
-    <!-- <link rel='stylesheet' href='node_modules/bootstrap-social/bootstrap-social.css'> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"> --> -->
+    
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
@@ -39,7 +38,7 @@
                         <a class="nav-link" href="./photos.html"><i class="fa fa-camera-retro"></i>  Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#my-projects"><i class="fa  fa-tasks"></i>  Projects</a>
+                        <a class="nav-link" href="./projects.html"><i class="fa  fa-tasks"></i>  Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#"><i class="fa  fa-book"></i> Academic</a>
@@ -147,21 +146,25 @@
     </section>
 
 
-    <section class="my-about" id='my-about'>
+    <section class="my-about" id="my-about">
+        <div class="my-about-title text-center">
+            <h3 >About Me</h3>
+        </div>
         <div class="container text-center">
-            <h2>About Me</h2>
-            <p>I am Shrey Niraula studying at Pulchowk Campus</p>
-
-            <div class="project-clickfordetail">
-                <p class="card-item"><a href="./about.html">Click for detail...</a></p>
+            <h4>Hello | こんにちは</h4>
+            <h5>My name is Shrey Niraula. Nice to meet you😊</h5>
+            <p>I am tech enthusiat who is persuing the dream of engineer. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum aut molestiae earum perferendis minus rerum dolor quasi, corporis delectus, ducimus dignissimos exercitationem beatae fuga voluptatem, eligendi veniam odit id. Earum?</p>
+            <div class="my-about-clickfordetail">
+                <p class="card-item"><a href="./about.html">To know more about me, click here </a></p>
             </div>
         </div>
     </section>
 
-    <section class="my-photos" id='my-photos'>
+    <section class="my-photos" id="my-photos">
         <div class="container">
             <div class="my-photos-title text-center">
-                <h3 >My Photo Collection</h3>
+                <h3 >Photography Hobby</h3>
+                <p>Lets start with background story. In covid pandemic lockdown, I was playing with camera setting. I came across the pro-photo mode. Wow, I didnt know. The whole world of photography opened up for me. Even Huawei nova 2i can do this sort!! I was shocked that I didnt know till now. (with possession of about 4 months😅).</p>
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -176,8 +179,8 @@
                 </div>
             </div>
             <div class="text-center pt-3">
-                <div class="project-clickfordetail">
-                    <h5><a href="./photos.html" style='color:white'>Click for detail...</a></h5>
+                <div class="my-photos-clickfordetail">
+                    <h5><a href="./photos.html"></a>To see more of Huawei Nova 2i shots, click here.</h5>
                 </div>
             </div>
         </div>
@@ -186,7 +189,8 @@
     <section class="my-projects" id='my-projects'>
         <div class="container">
             <div class="my-projects-title text-center">
-                <h3>My Projects</h3>
+                <h3>Projects Carried</h3>
+                <p>Projects, projects and Projects are all we have been doing. </p>
             </div>
             <div class="row">
                 <div class="col-md-6">
@@ -197,12 +201,12 @@
                                 <div class="project-title">
                                     <h4>Precision Live Stock Farming</h4>
                                 </div>
-                                <div class="project-mini-description ">
+                                <!-- <div class="project-mini-description ">
                                     <p>Our minor project aimed to improve traffic flow in real location of ktm valley
                                     </p>
-                                </div>
+                                </div> -->
                                 <div class="project-clickfordetail">
-                                    <p class="card-item"><a href="./projects.html">Click for detail...</a></p>
+                                    <p class="card-item"><a href="./projects.html">Click to know more</a></p>
                                 </div>
                             </div>
                         </div>
@@ -217,12 +221,12 @@
                                 <div class="project-title">
                                     <h4>Real Time Traffic Analysis</h4>
                                 </div>
-                                <div class="project-mini-description ">
+                                <!-- <div class="project-mini-description ">
                                     <p>Our minor project aimed to improve traffic flow in real location of ktm valley
                                     </p>
-                                </div>
+                                </div> -->
                                 <div class="project-clickfordetail">
-                                    <p class="card-item"><a href="#">Click for detail...</a></p>
+                                    <p class="card-item"><a href="#">Click to know more</a></p>
                                 </div>
                             </div>
                         </div>
@@ -232,25 +236,25 @@
         </div>
     </section>
 
-    <footer class='footer pt-5' id='my-contacts'>
-        <div class='container' id="footer-container">
-            <div class='d-flex flex-row mt-3 justify-content-around align-items-center'>
+    <footer class="footer pt-5" id="my-contacts">
+        <div class="container" id="footer-container">
+            <div class="d-flex flex-row mt-3 justify-content-around align-items-center">
                 <div class="my-footer-title text-center mb-3">
                     <h5>Connect me with</h5>
                 </div>
             </div>
 
-            <div class='d-flex flex-row mt-3 justify-content-around align-items-center'>
+            <div class="d-flex flex-row mt-3 justify-content-around align-items-center">
                 <div class="col-2 col-sm-4"></div>
                 <div class="col-8 col-sm-4">
                     <div class="d-flex flex-row justify-content-around">
-                        <a class='btn btn-social-icon btn-facebook' href="https://www.facebook.com/shrey.niraula.14"><i
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/shrey.niraula.14"><i
                                 class="fa fa-facebook fa-lg"></i></a>
-                        <a class='btn btn-social-icon btn-linked' href="https://www.linkedin.com/in/shrey-niraula-27947b189/"><i
+                        <a class="btn btn-social-icon btn-linked" href="https://www.linkedin.com/in/shrey-niraula-27947b189/"><i
                                 class="fa fa-linkedin fa-lg"></i></a>
                         <a href="https://github.com/ShreyNiraula" class="btn btn-social-icon btn-github"><i
                                 class="fa fa-github fa-lg"></i></a>
-                        <a class='btn btn-s ocial-icon btn-envelope' href="mailto:nshrey53@gmail.com"><i
+                        <a class="btn btn-s ocial-icon btn-envelope" href="mailto:nshrey53@gmail.com"><i
                                 class="fa fa-envelope fa-lg"></i></a>
                     </div>
                 </div>
@@ -258,9 +262,10 @@
 
 
             </div>
+
             <div class="row mt-5">
                 <div class="col-12">
-                    <div id='copyright'class="text-center">
+                    <div id="copyright" class="text-center">
                         <p>© Copyright 2020 Shrey Niraula</p>
                     </div>
                 </div>

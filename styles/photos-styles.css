@@ -57,8 +57,17 @@ img{
 .row .col-photos img:hover{
     /* filter: grayscale(0) brightness(1); */
 }
-.footer{
+.footer {
     margin-top: 3em;
-    background-color: #000;
-    min-height: 20em;
-}
+    padding: 5em 0 2em 0;
+    background-color: #00032b;
+    min-height: 120px; }
+  
+  
+  .my-footer-title h5{
+    color: #c0431e; 
+  }
+  
+  #copyright{
+    color: white;
+  }

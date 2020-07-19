@@ -8,7 +8,8 @@ body {
 
 @media screen and (max-width: 992px) {
   body {
-    font-size: 16px; } }
+    font-size: 16px; } 
+}
 
 .biggest-container{
   background-color: rgb(236, 236, 236);
