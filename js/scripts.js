@@ -1,17 +1,18 @@
-$(document).ready(function() {
-    $("#profile-carousel").carousel( { interval: 2000 } );
-    $("#carouselButton").click(function(){
-        if ($("#carouselButton").children("span").hasClass('fa fa-pause')) 
-        {
-            $("#profile-carousel").carousel('pause');
-            $("#carouselButton").children("span").removeClass('fa fa-pause');
-            $("#carouselButton").children("span").addClass('fa fa-play');
+$(document).ready(function () {
+  const nav_offset_top = $(".header_area").height() + 50;
+
+  function navbarFixed() {
+    if ($(".header_area").length) {
+      $(window).scroll(function () {
+        const scroll = $(window).scrollTop();
+        if (scroll >= nav_offset_top) {
+          $(".header_area .main-menu").addClass("navbar_fixed");
+        } else {
+          $(".header_area .main-menu").removeClass("navbar_fixed");
         }
-        else if ($("#carouselButton").children("span").hasClass('fa fa-play'))
-        {
-            $("#profile-carousel").carousel('cycle');
-            $("#carouselButton").children("span").removeClass('fa fa-play');
-            $("#carouselButton").children("span").addClass('fa fa-pause');                    
-        }
-    });
+      });
+    }
+  }
+
+  navbarFixed();
 });

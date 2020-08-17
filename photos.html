@@ -1,201 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shrey Niraula</title>
+    <!-- build:css css/main.css -->
+    <!-- <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"
+    />
+    <link rel="stylesheet" href="./css/photos.css" />
+    <!-- endbuild -->
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photos</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <!-- <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css"> --> -->
-    
-    <link rel="stylesheet" href="./styles/photos-styles.css">
-
-</head>
-
-<body>
-    <section class="my-navs">
-        <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color fixed-top">
-            <!-- <a class="navbar-brand" href="#"></a> -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#Navbar-333" aria-controls="Navbar-333"
-                aria-expanded="false" aria-label="Toggle navigation">
+  <body>
+    <main class="site-main">
+      <section class="nav-banner">
+        <header class="header_area">
+          <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="Navbar-333">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link " href="./index.html"><i class="fa fa-home"></i>  Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html"><i class="fa fa-user-circle-o"></i>  About Me</a> </li>
-                    <li class="nav-item active">
-                        <a class="nav-link active" href="./photos.html"><i class="fa fa-camera-retro"></i>  Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./projects.html"><i class="fa  fa-tasks"></i>  Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#"><i class="fa  fa-book"></i> Academic</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-contacts"><i class="fa fa-phone"></i> Contacts</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Dropdown
-                        </a>
-                        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#my-about">Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html#my-projects"
+                      >Projects</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Hobbies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#my-contacts">Contacts</a>
+                  </li>
                 </ul>
-                <ul class="navbar-nav ml-auto nav-flex-icons">
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="https://www.facebook.com/shrey.niraula.14">
-                            <i class="fa fa-lg fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="https://www.linkedin.com/in/shrey-niraula-27947b189/">
-                            <i class="fa fa-lg fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="https://github.com/ShreyNiraula">
-                            <i class="fa fa-lg fa-github"></i>
-                        </a>
-                    </li>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <section class="my-banner">
+          <div class="container">
+            <div class="row">
+              <div
+                class="banner-intro-column my-auto text-center col-lg-12 col-md-12 site-title"
+              >
+                <!-- <h4 class="title-text">नमस्ते●Hello●ハロー</h4> -->
+                <h1 id="aluarin" class="title-text text-uppercase">
+                  My Hobbies
+                </h1>
+                <h3 id="mini-aluarin">
+                  Photography
+                </h3>
+                <br /><br />
+              </div>
+              <!-- <div class="col-0 col-lg-1"></div> -->
 
-                    <li class="nav-item">
-                        <a class="nav-link waves-effect waves-light" href="mailto:nshrey53@gmail.com">
-                            <i class="fa fa-lg fa-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
+              <!-- 5-1-5 for lg(offset 1) and 12 for md-->
+              <!-- <div
+                class="banner-image-column my-auto text-center col-lg-6 col-md-12 banner-image"
+              >
+                <img
+                  src="./img/me-circular.png"
+                  alt="profile-picture"
+                  class="img-fluid"
+                />
+              </div> -->
+              <!-- col-0 for smaller screen, ie no div rendering-->
             </div>
-        </nav>
-    </section>
+            <!-- flex button area for whole row  -->
+            <!-- <div class="banner-button text-center">
+              <button id="cv-button" type="button" class="btn btn-primary">
+                Download my CV
+              </button>
+            </div> -->
+          </div>
+        </section>
+      </section>
 
-
-    <section class='container text-center'>
-        <h4>Welcome to my photoshots gallery</h4>
-        <p>You can see marvellous photos taken by me ^_^</p>
-    </section>
-
-    <div class="container">
-        <div class="row">
+      <!-- <section class="container text-center">
+        <h4>My Hobbies- Photography</h4>
+        <p>Photos taken by Me</p>
+      </section> -->
+      <section class="photo-gallery">
+        <div class="container">
+          <div class="row">
             <div class="col-12 col-sm-4 col-photos">
-                   <img class='img-pop-up' src="./images/mountain-sunrise.jpg" data-html='true' data-toggle="tooltip" data-placement="bottom" title='Mountain view from Sarankot Pokhara' > 
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/cat.jpg" title='Wild Cat in Kobe Zoo-Japan'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/oosaka-castle.jpg" title='Oosaka Castle-Japan'>
+              <img
+                class="img-pop-up"
+                src="./img/photos/mountain-sunrise.jpg"
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Mountain view from Sarankot Pokhara"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/cat.jpg"
+                title="Wild Cat in Kobe Zoo-Japan"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/oosaka-castle.jpg"
+                title="Oosaka Castle-Japan"
+              />
             </div>
             <div class="col-12 col-sm-4 col-photos">
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/kinkakuji-edited.jpg" title='Golden Temple-Kyoto, Japan'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/pegion-fullswing.jpg" title='Pegion Flying'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/pink-flower.jpg" title='Pink flower in my garden'>
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/kinkakuji-edited.jpg"
+                title="Golden Temple-Kyoto, Japan"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/pegion-fullswing.jpg"
+                title="Pegion Flying"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/pink-flower.jpg"
+                title="Pink flower in my garden"
+              />
             </div>
             <div class="col-12 col-sm-4 col-photos">
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/skytree-river.jpg" title='Sky tree and river-Tokyo, Japan'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/panda.jpg" title='Cute Panda in zoo-Kobe, Japan'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src='./images/red-rose.jpg' title='Marvelous red rose in my garden'>
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/skytree-river.jpg"
+                title="Sky tree and river-Tokyo, Japan"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/panda.jpg"
+                title="Cute Panda in zoo-Kobe, Japan"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/red-rose.jpg"
+                title="Marvelous red rose in my garden"
+              />
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-4 col-photos">
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/white-flower.jpg"
+                title="Wonderful white flower in Garden"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/pin-sunset.jpg"
+                title="Sunset shot from home"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/pink-rose.jpg"
+                title="Majestic pink rose also in myy garden"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-photos">
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/sunrise.jpg"
+                title="Sunrise from Sarankot Pokhara"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/penguin.jpg"
+                title="King Penguin-Kobe, Japan"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/the-cloud.jpg"
+                title="Eye-falling majestic cloud"
+              />
+            </div>
+            <div class="col-12 col-sm-4 col-photos">
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/dammi.jpg"
+                title="What is it exactly? I also dont know, but I love the most"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/monkey.jpg"
+                title="Your friend-Kobe,Japan"
+              />
+              <img
+                data-html="true"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                src="./img/photos/pegion-landing.jpg"
+                title="I wish I had more sharped zoomed DSLR photo for this majestic landing"
+              />
+            </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12 col-sm-4 col-photos">
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom" src="./images/white-flower.jpg" title='Wonderful white flower in Garden'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/pin-sunset.jpg" title='Sunset shot from home'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src='./images/pink-rose.jpg' title='Majestic pink rose also in myy garden'>
-            </div>
-            <div class="col-12 col-sm-4 col-photos">
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/sunrise.jpg" title='Sunrise from Sarankot Pokhara'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/penguin.jpg" title='King Penguin-Kobe, Japan'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src='./images/the-cloud.jpg' title='Eye-falling majestic cloud'>
-            </div>
-            <div class="col-12 col-sm-4 col-photos">
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/dammi.jpg" title='What is it exactly? I also dont know, but I love the most'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/monkey.jpg" title='Your friend-Kobe,Japan'>
-                <img data-html='true' data-toggle="tooltip" data-placement="bottom"src="./images/pegion-landing.jpg" title='I wish I had more sharped zoomed DSLR photo for this majestic landing'>
-            </div>
-        </div>
+      </section>
 
-    </div>
-
-    </div>
-    </div>
-
-    <footer class="footer pt-5" id="my-contacts">
+      <footer class="footer pt-5" id="my-contacts">
         <div class="container" id="footer-container">
-            <div class="d-flex flex-row mt-3 justify-content-around align-items-center">
-                <div class="my-footer-title text-center mb-3">
-                    <h5>Connect me with</h5>
-                </div>
+          <div
+            class="d-flex flex-row mt-3 justify-content-around align-items-center"
+          >
+            <div class="my-footer-title text-center mb-3">
+              <h5 class="text-uppercase title-text">
+                <span id="connect">Connect</span> me with
+              </h5>
             </div>
+          </div>
 
-            <div class="d-flex flex-row mt-3 justify-content-around align-items-center">
-                <div class="col-2 col-sm-4"></div>
-                <div class="col-8 col-sm-4">
-                    <div class="d-flex flex-row justify-content-around">
-                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/shrey.niraula.14"><i
-                                class="fa fa-facebook fa-lg"></i></a>
-                        <a class="btn btn-social-icon btn-linked" href="https://www.linkedin.com/in/shrey-niraula-27947b189/"><i
-                                class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="https://github.com/ShreyNiraula" class="btn btn-social-icon btn-github"><i
-                                class="fa fa-github fa-lg"></i></a>
-                        <a class="btn btn-s ocial-icon btn-envelope" href="mailto:nshrey53@gmail.com"><i
-                                class="fa fa-envelope fa-lg"></i></a>
-                    </div>
-                </div>
-                <div class="col-2 col-sm"></div>
-
-
+          <div
+            class="d-flex flex-row mt-3 justify-content-around align-items-center"
+          >
+            <div class="col-2 col-sm-4"></div>
+            <div class="social-icons col-8 col-sm-4">
+              <div class="d-flex flex-row justify-content-around">
+                <a
+                  class="btn btn-social-icon btn-facebook"
+                  href="https://www.facebook.com/shrey.niraula.14"
+                  ><i class="fa fa-facebook fa-lg"></i
+                ></a>
+                <a
+                  class="btn btn-social-icon btn-linked"
+                  href="https://www.linkedin.com/in/shrey-niraula-27947b189/"
+                  ><i class="fa fa-linkedin fa-lg"></i
+                ></a>
+                <a
+                  href="https://github.com/ShreyNiraula"
+                  class="btn btn-social-icon btn-github"
+                  ><i class="fa fa-github fa-lg"></i
+                ></a>
+                <a
+                  class="btn btn-s ocial-icon btn-envelope"
+                  href="mailto:nshrey53@gmail.com"
+                  ><i class="fa fa-envelope fa-lg"></i
+                ></a>
+              </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-12">
-                    <div id="copyright" class='text-center'>
-                        <p>© Copyright 2020 Shrey Niraula</p>
-                    </div>
-                </div>
+            <div class="col-2 col-sm"></div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12">
+              <div id="copyright" class="text-center">
+                <p>© Copyright 2020 Shrey Niraula</p>
+              </div>
             </div>
+          </div>
         </div>
-    </footer>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+      </footer>
+    </main>
+    <!-- build:js js/main.js -->
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        })
-    </script>
-
-    <!-- how to specify selector in jquery -->
-    <!-- element, "p","button", "body" -->
-    <!-- id, #id, "#accordion" -->
-    <!-- classes, ".btn" -->
-    <!-- attributes, "[href]", "[data-target='...']" -->
-    <!-- current element, $(this) -->
-
-
-    <!-- Jquery Events -->
-    <!-- causes DOM events  -->
-    <!-- click, dbclick, mouseenter, mouseleave
-    keypress, keydown, keyup
-    submit, change, focus, blur (for form) 
-    window, resize, scroll, unload (for document) -->
-</body>
-
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>
