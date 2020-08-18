@@ -3,114 +3,83 @@ body {
   margin: 0%;
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
-/* CSS Variables */
 /* font family variables. */
-html,
-body {
-  margin: 0%;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-}
-
 @font-face {
   font-family: "myViksi";
-  src: url("../fonts/Viksi_Script/Viksi_Script.ttf") format("truetype");
-}
+  src: url("../fonts/Viksi_Script/Viksi_Script.ttf") format("truetype"); }
 
 @font-face {
   font-family: "myPlayFair";
-  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf")
-    format("truetype");
-}
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype"); }
 
 @font-face {
   font-family: "myBalqis";
-  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype");
-}
+  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype"); }
 
 @font-face {
   font-family: "myTitilliumBold";
-  src: url("../fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
-}
+  src: url("../fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "myTitilliumBoldItalic";
-  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf")
-    format("truetype");
-}
+  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf") format("truetype"); }
 
 @font-face {
   font-family: "myRoboto";
-  src: url("../fonts//Roboto/Roboto-Bold.ttf") format("truetype");
-}
+  src: url("../fonts//Roboto/Roboto-Bold.ttf") format("truetype"); }
 
-/* start navigation */
 .site-main .nav-banner {
-  background: url(../img/background/education-candlejpg.jpg) no-repeat 100% 70%;
-}
+  background: url(../img/background/education-candlejpg.jpg) no-repeat 100% 70%; }
 
 /* NAVIGATION */
 .header_area .main-menu {
-  border: none;
-}
+  border: none; }
 
 .header_area .main-menu .nav-item .nav-link {
   font-weight: 500;
   text-transform: uppercase;
   padding: 1.7rem;
-  color: whitesmoke;
-}
+  color: whitesmoke; }
 
 .header_area .main-menu .navbar-nav .active a {
-  background: linear-gradient(90deg, #d31d10 0%, #4f67ee 100%);
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
+  background-clip: text; }
 
 .header_area .main-menu .navbar-nav a:hover {
-  background: linear-gradient(90deg, #d31d10 0%, #4f67ee 100%);
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
+  background-clip: text; }
 
 /* Banner Area */
 #aluarin {
   color: white;
-  font-size: 4rem;
-}
+  font-size: 4rem; }
 
 #mini-aluarin {
   color: #99377c;
-  font-size: 2rem;
-}
+  font-size: 2rem; }
 
 .site-main .my-banner {
-  padding: 3rem 0;
-}
+  padding: 3rem 0; }
 
 .site-main .my-banner .banner-intro-column {
-  padding: 3rem 0;
-}
+  padding: 3rem 0; }
 
 .site-main .banner-image img {
   height: 100%;
-  width: 20rem;
-}
+  width: 20rem; }
 
 .photo-gallery {
   padding: 2rem 0;
-  background-color: #1d1d1d;
-}
+  background-color: #1d1d1d; }
 
 .col-photos {
-  padding: 0 1em;
-}
+  padding: 0 1em; }
 
 img {
   padding-top: 1em;
@@ -119,37 +88,30 @@ img {
   width: 100%;
   /* filter: grayscale(0.4) brightness(1); */
   cursor: pointer;
-  transition: 0.3s linear;
-}
+  transition: 0.3s linear; }
 
 .footer {
   padding: 5em 0 2em 0;
   background-color: #f3ffff;
   background-color: #0d0d20;
-  min-height: 120px;
-}
+  min-height: 120px; }
 
 .my-footer-title h5 {
   color: #a74848;
-  font-size: 1.8rem;
-}
+  font-size: 1.8rem; }
 
 .my-footer-title h5 #connect {
-  color: #644242;
-}
+  color: #644242; }
 
 #copyright {
-  color: #756868;
-}
+  color: #756868; }
 
 .social-icons a i {
-  color: #001f85;
-}
+  color: #001f85; }
 
 .social-icons a i:hover {
   transform: scale(1.7);
-  transition: ease-in 0.4s;
-}
+  transition: ease-in 0.4s; }
 
 /* after js effect  */
 .navbar_fixed {
@@ -162,5 +124,4 @@ img {
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   z-index: 999;
   transition: background 1s ease;
-  color: white !important;
-}
+  color: white !important; }

@@ -6,15 +6,7 @@ body {
   width: 100%;
   height: 100%; }
 
-/* CSS Variables */
 /* font family variables. */
-html,
-body {
-  margin: 0%;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%; }
-
 @font-face {
   font-family: "myViksi";
   src: url("../fonts/Viksi_Script/Viksi_Script.ttf") format("truetype"); }
@@ -52,16 +44,16 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   padding: 1.7rem;
-  color: linear-gradient(90deg, #d31d10 0%, #4f67ee 100%); }
+  color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%); }
 
 .header_area .main-menu .navbar-nav .active a {
-  background: linear-gradient(90deg, #d31d10 0%, #4f67ee 100%);
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; }
 
 .header_area .main-menu .navbar-nav a:hover {
-  background: linear-gradient(90deg, #d31d10 0%, #4f67ee 100%);
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; }
@@ -72,7 +64,9 @@ body {
   font-size: 4rem; }
 
 #mini-aluarin {
-  color: #99377c;
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2rem; }
 
 .site-main .my-banner {
@@ -95,12 +89,15 @@ body {
   margin: 0.5rem;
   color: #1a1969;
   background-color: #e1f6ff;
-  font-family: myRoboto; }
+  font-family: myRoboto;
+  border-radius: 2rem; }
 
 #cv-button:hover {
-  background-color: #102552;
-  color: #e0e0fc;
-  text-shadow: #2024eb; }
+  background: linear-gradient(90deg, #d31d10 50%, #4f67ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: transparent;
+  border: 1px transparent solid; }
 
 /* About Area */
 .each-skill img:hover {
@@ -109,7 +106,7 @@ body {
 
 .site-main .my-about {
   background-color: teal;
-  padding: 8rem 5rem; }
+  padding: 6rem 5rem; }
 
 .site-main .my-about .my-about-title {
   font-size: 2.5rem;
@@ -159,6 +156,14 @@ body {
   font-size: 2rem; }
 
 /* projects Area */
+.my-projects {
+  background-color: #eeeeee;
+  padding: 6rem 0; }
+
+.card {
+  border: none;
+  background-color: #eeeeee; }
+
 .card-flip > div {
   backface-visibility: hidden;
   transition: transform 500ms;
@@ -171,8 +176,8 @@ body {
 .card-front {
   transform: rotateY(0deg);
   background-color: #f7fbff;
-  border: 0.001rem rgba(0, 0, 255, 0.2) solid;
-  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 255, 0.4); }
+  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 255, 0.4);
+  border-radius: 0.4rem; }
 
 .card-front .card-title {
   color: #36ddfa; }
@@ -188,8 +193,7 @@ body {
   box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 255, 191, 0.3); }
 
 .card-back .card-body {
-  background-color: #fafffa;
-  border: 0.2rem 0.2rem 0.8rem rgba(0, 255, 170, 0.2); }
+  background-color: #fafffa; }
 
 .card-back .card-title {
   color: #72ff3a; }
@@ -228,10 +232,6 @@ body {
   background-color: #010030;
   padding: 5rem 3rem; }
 
-.my-educations {
-  margin: 5rem 0;
-  margin-bottom: 0; }
-
 .my-educations .my-educations-title {
   font-size: 2.5rem;
   color: whitesmoke; }
@@ -259,11 +259,10 @@ body {
   min-height: 120px; }
 
 .my-footer-title h5 {
-  color: #a74848;
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 1.8rem; }
-
-.my-footer-title h5 #connect {
-  color: #644242; }
 
 #copyright {
   color: #756868; }
