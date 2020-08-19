@@ -105,6 +105,7 @@ $roboto: "Roboto", cursive;
 /* Banner Area */
 #aluarin {
   color: white;
+  color: #ffffffb3;
   font-size: 4rem;
 }
 #mini-aluarin {
@@ -363,7 +364,7 @@ $roboto: "Roboto", cursive;
 }
 
 .social-icons a i {
-  color: rgb(0, 31, 133);
+  // color: rgb(0, 31, 133);
   size: 4rem;
 }
 .social-icons a i:hover {
@@ -382,4 +383,9 @@ $roboto: "Roboto", cursive;
   box-shadow: $box-shadow;
   z-index: 999;
   transition: background 1s ease;
+}
+
+.site-main .my-hobbies {
+  background-color: $gray-darker;
+  padding: 6rem 5rem;
 }

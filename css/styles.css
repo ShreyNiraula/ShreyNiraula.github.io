@@ -4,113 +4,214 @@ body {
   margin: 0%;
   box-sizing: border-box;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 /* font family variables. */
 @font-face {
   font-family: "myViksi";
-  src: url("../fonts/Viksi_Script/Viksi_Script.ttf") format("truetype"); }
+  src: url("../fonts/Viksi_Script/Viksi_Script.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "myPlayFair";
-  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype"); }
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
 
 @font-face {
   font-family: "myBalqis";
-  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype"); }
+  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "myTitilliumBold";
-  src: url("../fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype"); }
+  src: url("../fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "myTitilliumBoldItalic";
-  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf") format("truetype"); }
+  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf")
+    format("truetype");
+}
 
 @font-face {
   font-family: "myRoboto";
-  src: url("../fonts//Roboto/Roboto-Bold.ttf") format("truetype"); }
+  src: url("../fonts//Roboto/Roboto-Bold.ttf") format("truetype");
+}
 
 /* BANNER + NAVIGATION */
 .site-main .nav-banner {
   min-height: 100vh;
-  background: url(../img/background/landing.jpg) no-repeat 0% 45%; }
+  background: url(../img/background/landing.jpg) no-repeat 0% 45%;
+}
 
 /* NAVIGATION */
 .header_area .main-menu {
-  border: none; }
+  border: none;
+}
 
 .header_area .main-menu .nav-item .nav-link {
   font-weight: 500;
   text-transform: uppercase;
   padding: 1.7rem;
-  color: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee); }
+  color: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
+}
+
+.cv-button {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 0.08rem #fff solid;
+}
+/* .cv-button a {
+  color: ;
+} */
 
 .header_area .main-menu .navbar-nav .active a {
-  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; }
+  background-clip: text;
+}
 
 .header_area .main-menu .navbar-nav a:hover {
-  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text; }
+  background-clip: text;
+}
 
 /* Banner Area */
 #aluarin {
   color: white;
-  font-size: 4rem; }
+  font-size: 4rem;
+}
 
 #mini-aluarin {
-  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
-  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2rem; }
+  font-size: 2rem;
+}
 
 .site-main .my-banner {
-  padding: 3rem 0; }
+  padding: 3rem 0;
+}
 
 .site-main .my-banner .banner-intro-column {
-  padding: 3rem 0; }
+  padding: 3rem 0;
+}
 
 .site-main .banner-image img {
   height: 100%;
-  width: 20rem; }
+  width: 20rem;
+}
 
 .site-main .my-banner .banner-button {
   display: flex;
   justify-content: center;
-  margin: 2rem; }
+  margin: 2rem;
+}
 
 #cv-button {
-  padding: 1rem;
-  margin: 0.5rem;
-  color: #1a1969;
-  background-color: #e1f6ff;
-  font-family: myRoboto;
-  border-radius: 2rem; }
+  border-radius: 2rem;
+  border: 0.08rem #fff solid;
+  padding: 0;
+  margin: 0;
+}
 
 #cv-button:hover {
   background: linear-gradient(90deg, #d31d10 50%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: transparent;
-  border: 1.5px #3967ff solid; }
+}
 
 /* projects Area */
 .my-projects {
   background-color: #f0f0f0;
-  padding: 6rem 0; }
+  padding: 6rem 0;
+}
 
 .my-projects-title {
-  color: #6dbafd; }
+  color: #6dbafd;
+}
 
 .card {
   border: none;
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+}
 
 .card-flip > div {
   backface-visibility: hidden;
@@ -119,57 +220,72 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  display: flex; }
+  display: flex;
+}
 
 .card-front {
   transform: rotateY(0deg);
   background-color: #f7fbff;
   box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 255, 0.4);
-  border-radius: 0.4rem; }
+  border-radius: 0.4rem;
+}
 
 .card-front .card-title {
-  color: #36ddfa; }
+  color: #36ddfa;
+}
 
 .card-front .card-text {
-  color: #4622a8; }
+  color: #4622a8;
+}
 
 .card-back {
   height: 100%;
   transform: rotateY(180deg);
   position: absolute;
   top: 0;
-  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 255, 191, 0.3); }
+  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 255, 191, 0.3);
+}
 
 .card-back .card-body {
-  background-color: #fafffa; }
+  background-color: #fafffa;
+}
 
 .card-back .card-title {
-  color: #72ff3a; }
+  color: #72ff3a;
+}
 
 .card-back .card-text {
-  color: #05be4c; }
+  color: #05be4c;
+}
 
 .card-back .card-body a {
   color: #073802;
-  /* font-size: 3rem; */ }
+  /* font-size: 3rem; */
+}
 
 .card-flip:hover .card-front {
   overflow: hidden;
-  transform: rotateY(-180deg); }
+  transform: rotateY(-180deg);
+}
 
 .card-flip:hover .card-back {
   overflow-y: scroll;
-  transform: rotateY(0deg); }
+  transform: rotateY(0deg);
+}
 
 .card-flip:hover .card-back::-webkit-scrollbar {
-  display: none; }
+  display: none;
+}
 
 .my-each-project {
-  height: 30vh; }
+  height: 30vh;
+}
 
 @media (min-width: 768px) {
   .my-each-project {
-    height: 45vh; } }
+    height: 45vh;
+  }
+}
 
 /* @media (min-width: 480px) {
   body {
@@ -178,83 +294,117 @@ body {
 } */
 .each-skill img:hover {
   transform: scale(1.2);
-  -webkit-transition: transform 0.4s ease-in; }
+  -webkit-transition: transform 0.4s ease-in;
+}
 
 .site-main .my-about {
   background-color: #e5e5e5;
-  padding: 6rem 5rem; }
+  padding: 6rem 5rem;
+}
 
 .site-main .my-about .my-about-title {
   font-size: 2.5rem;
-  color: #6dbafd; }
+  color: #6dbafd;
+}
 
 .site-main .my-about .my-about-intro .my-intro {
   padding: 1rem 0;
-  margin: 2rem 1rem 1rem 1rem; }
+  margin: 2rem 1rem 1rem 1rem;
+}
 
 .site-main .my-about .my-about-intro .my-intro p {
   color: gray;
   text-align: justify;
-  text-justify: inter-word; }
+  text-justify: inter-word;
+}
 
 .site-main .my-about .my-about-intro .my-intro h3 {
   font-family: cursive;
-  color: #5f5f5f; }
+  color: #5f5f5f;
+}
 
 .site-main .my-about .my-about-intro .my-intro h5 {
   font-family: cursive;
-  color: #6dbafd; }
+  color: #6dbafd;
+}
 
 .site-main .my-about .my-about-skills h4 {
   font-family: myRoboto;
-  color: #e7128e;
-  font-size: 2rem; }
+  /* color: #e7128e; */
+  color: #36ddfaab;
+  font-size: 2rem;
+}
 
 .site-main .my-educations {
   background-color: #f0f0f0;
-  padding: 5rem 3rem; }
+  padding: 5rem 3rem;
+}
 
 .my-educations .my-educations-title {
   font-size: 2.5rem;
-  color: #6dbafd; }
+  color: #6dbafd;
+}
 
 #accordion {
-  margin: 4rem 0rem; }
+  margin: 4rem 0rem;
+}
 
 .my-educations .card {
   cursor: pointer;
-  margin: 2rem 0rem; }
+  margin: 2rem 0rem;
+}
 
 .my-educations .card:nth-child(even) {
   background-color: #272727;
-  color: #a1fdee; }
+  color: #a1fdee;
+}
 
 .my-educations .card:nth-child(odd) {
   background-color: #252525;
-  color: #6d77ff; }
+  color: #6d77ff;
+}
 
 .footer {
   /* background: url(../img/background/connectme-medium.jpg) no-repeat 0% 55%; */
   padding: 5em 0 2em 0;
   background-color: #e5e5e5;
-  min-height: 120px; }
+  min-height: 120px;
+}
 
 .my-footer-title h5 {
-  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+}
 
 #copyright {
-  color: #756868; }
+  color: #756868;
+}
 
 .social-icons a i {
   color: #001f85;
-  size: 4rem; }
+  size: 4rem;
+}
 
 .social-icons a i:hover {
   transform: scale(1.7);
-  transition: ease-in 0.4s; }
+  transition: ease-in 0.4s;
+}
 
 /* after js effect  */
 .navbar_fixed {
@@ -266,4 +416,34 @@ body {
   background: #ffffff;
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   z-index: 999;
-  transition: background 1s ease; }
+  transition: background 0.8s ease-in-out;
+}
+
+.site-main .my-hobbies {
+  background-color: rgb(46, 46, 46);
+  padding: 5rem 3rem;
+}
+.site-main .my-hobbies .row {
+  text-align: center;
+}
+
+.site-main .my-hobbies-title {
+  font-size: 2.5rem;
+  color: #6dbafd;
+}
+
+.site-main .my-hobbies-text {
+  margin: 1rem 0 0 0;
+  color: #e5e5e5;
+}
+.site-main .my-hobbies .carousel .photo-row {
+  color: white;
+  padding: 1.5rem 0 0.5rem 0;
+}
+.site-main .my-hobbies .carousel .photo-img {
+  margin: 2rem 0;
+}
+.site-main .my-hobbies .carousel .about-photo {
+  margin: 0.25rem 0;
+  text-align: center;
+}
