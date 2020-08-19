@@ -44,16 +44,16 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   padding: 1.7rem;
-  color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%); }
+  color: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee); }
 
 .header_area .main-menu .navbar-nav .active a {
-  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; }
 
 .header_area .main-menu .navbar-nav a:hover {
-  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text; }
@@ -64,7 +64,8 @@ body {
   font-size: 4rem; }
 
 #mini-aluarin {
-  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
+  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem; }
@@ -97,68 +98,15 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color: transparent;
-  border: 1px transparent solid; }
-
-/* About Area */
-.each-skill img:hover {
-  transform: scale(1.2);
-  -webkit-transition: transform 0.4s ease-in; }
-
-.site-main .my-about {
-  background-color: teal;
-  padding: 6rem 5rem; }
-
-.site-main .my-about .my-about-title {
-  font-size: 2.5rem;
-  color: #cde8ff; }
-
-.site-main .my-about .my-about-intro {
-  padding: 1rem 0; }
-
-.site-main .my-about .my-about-intro .my-intro {
-  color: white; }
-
-.site-main .my-about .my-about-intro .my-intro [class*="para"] {
-  padding: 1rem; }
-
-.site-main .my-about .my-about-intro .my-intro .para-hello {
-  font-size: 1.5rem;
-  color: white; }
-
-#namaste {
-  font-size: 1.5rem;
-  color: #91ceff; }
-
-#hello {
-  font-size: 1.5rem;
-  color: #ff3a9c; }
-
-#yaharo {
-  font-size: 1.5rem;
-  color: #91ceff; }
-
-.site-main .my-about .my-about-intro .my-intro .para-name {
-  font-size: 1.2rem;
-  color: #ffffff; }
-
-.site-main .my-about .my-about-intro .my-intro .para-career {
-  font-family: myTitilliumBold;
-  font-size: 1.2rem;
-  color: #ffffff; }
-
-.site-main .my-about .my-about-intro .my-intro .para-grew {
-  font-family: cursive;
-  color: #e2aff7; }
-
-.site-main .my-about .my-about-skills h4 {
-  font-family: myRoboto;
-  color: #e7128e;
-  font-size: 2rem; }
+  border: 1.5px #3967ff solid; }
 
 /* projects Area */
 .my-projects {
-  background-color: #eeeeee;
+  background-color: #f0f0f0;
   padding: 6rem 0; }
+
+.my-projects-title {
+  color: #6dbafd; }
 
 .card {
   border: none;
@@ -228,13 +176,47 @@ body {
     background-color: lightgreen;
   }
 } */
+.each-skill img:hover {
+  transform: scale(1.2);
+  -webkit-transition: transform 0.4s ease-in; }
+
+.site-main .my-about {
+  background-color: #e5e5e5;
+  padding: 6rem 5rem; }
+
+.site-main .my-about .my-about-title {
+  font-size: 2.5rem;
+  color: #6dbafd; }
+
+.site-main .my-about .my-about-intro .my-intro {
+  padding: 1rem 0;
+  margin: 2rem 1rem 1rem 1rem; }
+
+.site-main .my-about .my-about-intro .my-intro p {
+  color: gray;
+  text-align: justify;
+  text-justify: inter-word; }
+
+.site-main .my-about .my-about-intro .my-intro h3 {
+  font-family: cursive;
+  color: #5f5f5f; }
+
+.site-main .my-about .my-about-intro .my-intro h5 {
+  font-family: cursive;
+  color: #6dbafd; }
+
+.site-main .my-about .my-about-skills h4 {
+  font-family: myRoboto;
+  color: #e7128e;
+  font-size: 2rem; }
+
 .site-main .my-educations {
-  background-color: #010030;
+  background-color: #f0f0f0;
   padding: 5rem 3rem; }
 
 .my-educations .my-educations-title {
   font-size: 2.5rem;
-  color: whitesmoke; }
+  color: #6dbafd; }
 
 #accordion {
   margin: 4rem 0rem; }
@@ -254,12 +236,11 @@ body {
 .footer {
   /* background: url(../img/background/connectme-medium.jpg) no-repeat 0% 55%; */
   padding: 5em 0 2em 0;
-  background-color: #f3ffff;
-  background-color: #010030;
+  background-color: #e5e5e5;
   min-height: 120px; }
 
 .my-footer-title h5 {
-  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  background: linear-gradient(to right, #db6860, #e17288, #db82ad, #cd94c9, #bda7dc, #b1a7e2, #a3a8e7, #92a9eb, #7f99ed, #6e89ef, #5d78ef, #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.8rem; }
@@ -268,7 +249,8 @@ body {
   color: #756868; }
 
 .social-icons a i {
-  color: #001f85; }
+  color: #001f85;
+  size: 4rem; }
 
 .social-icons a i:hover {
   transform: scale(1.7);

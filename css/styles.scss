@@ -1,0 +1,385 @@
+/* css variables */
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+$primary-color: #4458dc;
+$primary-color2: #854fee;
+$title-color: #141313;
+$text-color: #777777;
+$border-color: #201f1f17;
+$toggle-gradient: linear-gradient(90deg, #d31d10 50%, #4f67ee 100%);
+$m-gradient: linear-gradient(
+  to right,
+  #db6860,
+  #e17288,
+  #db82ad,
+  #cd94c9,
+  #bda7dc,
+  #b1a7e2,
+  #a3a8e7,
+  #92a9eb,
+  #7f99ed,
+  #6e89ef,
+  #5d78ef,
+  #4f67ee
+);
+
+$gray-darker: #e5e5e5;
+$gray-lighter: #f0f0f0;
+// $TITLE: rgba(12, 12, 250, 0.4);
+$TITLE: #6dbafd;
+
+$gradient-color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+$shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+$box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+/* font family variables. */
+$roboto: "Roboto", cursive;
+
+@font-face {
+  font-family: "myViksi";
+  src: url("../fonts/Viksi_Script/Viksi_Script.ttf") format("truetype");
+}
+@font-face {
+  font-family: "myPlayFair";
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "myBalqis";
+  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype");
+}
+@font-face {
+  font-family: "myTitilliumBold";
+  src: url("../fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "myTitilliumBoldItalic";
+  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "myRoboto";
+  src: url("../fonts//Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+/* BANNER + NAVIGATION */
+.site-main .nav-banner {
+  min-height: 100vh;
+  background: url(../img/background/landing.jpg) no-repeat 0% 45%;
+}
+
+/* NAVIGATION */
+.header_area .main-menu {
+  border: none;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  // font: normal 500 3em/2px $harlow;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 1.7rem;
+  // color: $m-gradient;
+  color: $m-gradient;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: $m-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: $m-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Banner Area */
+#aluarin {
+  color: white;
+  font-size: 4rem;
+}
+#mini-aluarin {
+  background: $m-gradient;
+  background: $m-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+}
+
+.site-main .my-banner {
+  padding: 3rem 0;
+}
+.site-main .my-banner .banner-intro-column {
+  padding: 3rem 0;
+}
+.site-main .banner-image img {
+  height: 100%;
+  width: 20rem;
+}
+.site-main .my-banner .banner-button {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+#cv-button {
+  padding: 1rem;
+  margin: 0.5rem;
+  color: #1a1969;
+  background-color: rgb(225, 246, 255);
+  font-family: myRoboto;
+  border-radius: 2rem;
+}
+#cv-button:hover {
+  // background: $m-gradient;
+  background: $toggle-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: transparent;
+
+  border: 1.5px rgb(57, 103, 255) solid;
+}
+
+/* projects Area */
+.my-projects {
+  background-color: $gray-lighter;
+  padding: 6rem 0;
+}
+.my-projects-title {
+  color: $TITLE;
+}
+.card {
+  border: none;
+  background-color: #eeeeee;
+}
+.card-flip > div {
+  // border-radius: 0.4rem;
+  backface-visibility: hidden;
+  transition: transform 500ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+  background-color: rgb(247, 251, 255);
+  // border: 0.001rem rgba(0, 0, 255, 0.2) solid;
+  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 255, 0.4);
+  border-radius: 0.4rem;
+}
+.card-front .card-title {
+  color: rgb(54, 221, 250);
+}
+.card-front .card-text {
+  color: #4622a8;
+}
+
+.card-back {
+  height: 100%;
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 255, 191, 0.3);
+}
+.card-back .card-body {
+  background-color: rgb(250, 255, 250);
+  // border: 0.2rem 0.2rem 0.8rem rgba(0, 255, 170, 0.2);
+}
+.card-back .card-title {
+  color: rgb(114, 255, 58);
+}
+.card-back .card-text {
+  color: #05be4c;
+}
+.card-back .card-body a {
+  color: rgb(7, 56, 2);
+  /* font-size: 3rem; */
+}
+
+.card-flip:hover .card-front {
+  overflow: hidden;
+  transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+  overflow-y: scroll;
+  transform: rotateY(0deg);
+}
+
+.card-flip:hover .card-back::-webkit-scrollbar {
+  display: none;
+}
+
+.my-each-project {
+  height: 30vh;
+}
+@media (min-width: 768px) {
+  .my-each-project {
+    height: 45vh;
+  }
+}
+/* @media (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+} */
+
+////   about me area
+.each-skill img:hover {
+  transform: scale(1.2);
+  -webkit-transition: transform 0.4s ease-in;
+}
+.site-main .my-about {
+  // background-color: teal;
+  background-color: $gray-darker;
+  padding: 6rem 5rem;
+}
+.site-main .my-about .my-about-title {
+  font-size: 2.5rem;
+  // color: rgb(205, 232, 255);
+  color: $TITLE;
+}
+.site-main .my-about .my-about-intro .my-intro {
+  padding: 1rem 0;
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+// .site-main .my-about .my-about-intro .my-intro [class*="para"] {
+//   padding: 1rem;
+// }
+
+// .site-main .my-about .my-about-intro .my-intro .para-hello {
+//   font-size: 1.5rem;
+//   color: rgb(255, 255, 255);
+// }
+// #namaste {
+//   font-size: 1.5rem;
+//   color: rgb(145, 206, 255);
+// }
+// #hello {
+//   font-size: 1.5rem;
+//   color: rgb(255, 58, 156);
+// }
+// #yaharo {
+//   font-size: 1.5rem;
+//   color: rgb(145, 206, 255);
+// }
+// .site-main .my-about .my-about-intro .my-intro .para-name {
+//   font-size: 1.2rem;
+//   color: #ffffff;
+// }
+
+// .site-main .my-about .my-about-intro .my-intro .para-career {
+//   font-family: myTitilliumBold;
+//   font-size: 1.2rem;
+//   color: #ffffff;
+// }
+
+// .site-main .my-about .my-about-intro .my-intro .para-grew {
+//   font-family: cursive;
+//   color: #e2aff7;
+// }
+.site-main .my-about .my-about-intro .my-intro p {
+  color: gray;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.site-main .my-about .my-about-intro .my-intro h3 {
+  font-family: cursive;
+  color: #5f5f5f;
+}
+.site-main .my-about .my-about-intro .my-intro h5 {
+  font-family: cursive;
+  color: $TITLE;
+}
+
+.site-main .my-about .my-about-skills h4 {
+  font-family: myRoboto;
+  color: #e7128e;
+  font-size: 2rem;
+}
+
+////       educations ////////
+.site-main .my-educations {
+  background-color: $gray-lighter;
+  padding: 5rem 3rem;
+}
+.my-educations .my-educations-title {
+  font-size: 2.5rem;
+  // color: whitesmoke;
+  color: $TITLE;
+}
+#accordion {
+  margin: 4rem 0rem;
+}
+.my-educations .card {
+  cursor: pointer;
+  margin: 2rem 0rem;
+}
+.my-educations .card:nth-child(even) {
+  background-color: #272727;
+  color: rgb(161, 253, 238);
+}
+.my-educations .card:nth-child(odd) {
+  background-color: #252525;
+  color: rgb(109, 119, 255);
+}
+
+//// footer
+.footer {
+  /* background: url(../img/background/connectme-medium.jpg) no-repeat 0% 55%; */
+
+  padding: 5em 0 2em 0;
+  // background-color: #010030;
+  background-color: $gray-darker;
+
+  min-height: 120px;
+}
+
+.my-footer-title h5 {
+  // color: rgb(167, 72, 72);
+  background: $m-gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.8rem;
+}
+// .my-footer-title h5 #connect {
+//   color: rgb(100, 66, 66);
+// }
+
+#copyright {
+  color: #756868;
+}
+
+.social-icons a i {
+  color: rgb(0, 31, 133);
+  size: 4rem;
+}
+.social-icons a i:hover {
+  transform: scale(1.7);
+  transition: ease-in 0.4s;
+}
+
+/* after js effect  */
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: $box-shadow;
+  z-index: 999;
+  transition: background 1s ease;
+}
