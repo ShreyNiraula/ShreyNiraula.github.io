@@ -127,7 +127,7 @@ body {
 
 /* Banner Area */
 #aluarin {
-  color: white;
+  color: rgba(255, 255, 255, 0.603);
   font-size: 4rem;
 }
 
@@ -437,6 +437,18 @@ body {
 .site-main .my-hobbies-text {
   margin: 1rem 0 0 0;
   color: #e5e5e5;
+}
+.site-main .my-hobbies-link {
+  margin: 1rem 0 0 0;
+  padding-bottom: 0.3rem;
+}
+.site-main .my-hobbies-link a {
+  color: #6dbafd;
+  cursor: pointer;
+}
+.site-main .my-hobbies-link a:hover {
+  border-bottom: 0.08rem white solid;
+  text-decoration: none;
 }
 .site-main .my-hobbies .carousel .photo-row {
   color: white;
