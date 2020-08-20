@@ -20,8 +20,8 @@ body {
 }
 
 @font-face {
-  font-family: "myBalqis";
-  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype");
+  font-family: "mtTitItalic";
+  src: url("../fonts/Titillium_Web/TitilliumWeb-Italic.ttf") format("truetype");
 }
 
 @font-face {
@@ -33,6 +33,10 @@ body {
   font-family: "myTitilliumBoldItalic";
   src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf")
     format("truetype");
+}
+@font-face {
+  font-family: "myBal";
+  src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype");
 }
 
 @font-face {
@@ -150,6 +154,7 @@ body {
 .my-projects {
   background-color: #f0f0f0;
   background-color: rgb(40, 40, 40);
+  background-color: rgb(46, 46, 46);
   padding: 6rem 0;
 }
 
@@ -161,6 +166,7 @@ body {
   border: none;
   /* background-color: #eeeeee; */
   background-color: rgb(40, 40, 40);
+  background-color: rgb(46, 46, 46);
 }
 
 .card-flip > div {
@@ -249,7 +255,8 @@ body {
 
 .site-main .my-about {
   background-color: #e5e5e5;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(46, 46, 46);
+  background-color: rgb(40, 40, 40);
   padding: 6rem 0rem;
 }
 
@@ -271,18 +278,38 @@ body {
 
 .site-main .my-about .my-about-intro .my-intro h3 {
   font-family: cursive;
-  color: #5f5f5f;
+
+  color: whitesmoke;
 }
 
 .site-main .my-about .my-about-intro .my-intro h5 {
-  font-family: cursive;
-  color: #6dbafd;
+  font-family: myBal;
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #6dbafd; */
+  font-size: 1.75rem;
+  font-weight: bold;
 }
 
 .site-main .my-about .my-about-skills h4 {
   font-family: myRoboto;
-  /* color: #e7128e; */
-  color: #36ddfaab;
+  /* color: #36ddfaab; */
+  color: #6dbafd;
   font-size: 2rem;
 }
 
@@ -319,7 +346,8 @@ body {
   /* background: url(../img/background/connectme-medium.jpg) no-repeat 0% 55%; */
   padding: 5em 0 2em 0;
   background-color: #e5e5e5;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(46, 46, 46);
+  background-color: rgb(40, 40, 40);
   min-height: 120px;
 }
 
@@ -374,6 +402,7 @@ body {
 
 .site-main .my-hobbies {
   background-color: rgb(40, 40, 40);
+  background-color: rgb(46, 46, 46);
   padding: 5rem 0rem;
 }
 .site-main .my-hobbies .row {
@@ -411,4 +440,9 @@ body {
 .site-main .my-hobbies .carousel .about-photo {
   margin: 0.25rem 0;
   text-align: center;
+}
+.site-main .my-hobbies .carousel .about-photo h4 {
+  margin: 0.25rem 0;
+  text-align: center;
+  color: #6dbafd;
 }
