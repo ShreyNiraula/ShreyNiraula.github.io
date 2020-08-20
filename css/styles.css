@@ -56,69 +56,30 @@ body {
   text-transform: uppercase;
   padding: 1.2rem 1.2rem 0.8rem 1.2rem;
   /* edited heree............................................................................................................. */
-  color: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
+  color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
 }
 
 .cv-button {
   padding: 1rem;
   border-radius: 2rem;
-  border: 0.08rem #fff solid;
+  border: 0.05rem #fff solid;
+}
+.cv-button a {
+  color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
 }
 /* .cv-button a {
   color: ;
 } */
 
 .header_area .main-menu .navbar-nav .active a {
-  background: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
-  background: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
+  background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -132,21 +93,6 @@ body {
 }
 
 #mini-aluarin {
-  background: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
   background: linear-gradient(
     to right,
     #db6860,
@@ -203,6 +149,7 @@ body {
 /* projects Area */
 .my-projects {
   background-color: #f0f0f0;
+  background-color: rgb(40, 40, 40);
   padding: 6rem 0;
 }
 
@@ -212,7 +159,8 @@ body {
 
 .card {
   border: none;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
+  background-color: rgb(40, 40, 40);
 }
 
 .card-flip > div {
@@ -283,7 +231,7 @@ body {
   height: 30vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .my-each-project {
     height: 45vh;
   }
@@ -301,7 +249,8 @@ body {
 
 .site-main .my-about {
   background-color: #e5e5e5;
-  padding: 6rem 5rem;
+  background-color: rgb(56, 56, 56);
+  padding: 6rem 0rem;
 }
 
 .site-main .my-about .my-about-title {
@@ -370,6 +319,7 @@ body {
   /* background: url(../img/background/connectme-medium.jpg) no-repeat 0% 55%; */
   padding: 5em 0 2em 0;
   background-color: #e5e5e5;
+  background-color: rgb(56, 56, 56);
   min-height: 120px;
 }
 
@@ -399,7 +349,8 @@ body {
 }
 
 .social-icons a i {
-  color: #001f85;
+  color: #6dbafd;
+
   size: 4rem;
 }
 
@@ -422,8 +373,8 @@ body {
 }
 
 .site-main .my-hobbies {
-  background-color: rgb(46, 46, 46);
-  padding: 5rem 3rem;
+  background-color: rgb(40, 40, 40);
+  padding: 5rem 0rem;
 }
 .site-main .my-hobbies .row {
   text-align: center;
