@@ -58,28 +58,15 @@ body {
 .header_area .main-menu .nav-item .nav-link {
   font-weight: 500;
   text-transform: uppercase;
-  padding: 1.2rem 1.2rem 0.8rem 1.2rem;
-  /* edited heree............................................................................................................. */
-  color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
+  padding: 1.2rem 1.2rem 1rem 1.2rem;
+  color: rgb(36, 36, 36);
 }
-
-.cv-button {
-  padding: 1rem;
-  border-radius: 2rem;
-  border: 0.05rem #fff solid;
-}
-.cv-button a {
-  color: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
-}
-/* .cv-button a {
-  color: ;
-} */
 
 .header_area .main-menu .navbar-nav .active a {
   background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-weight: bold;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
@@ -87,7 +74,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 0.1rem #ebebeb solid;
+  border-bottom: 0.06rem rgb(36, 36, 36) solid;
 }
 
 /* Banner Area */
@@ -137,6 +124,7 @@ body {
 }
 
 #cv-button {
+  cursor: pointer;
   border-radius: 2rem;
   border: 0.08rem #fff solid;
   padding: 0;
@@ -153,8 +141,7 @@ body {
 /* projects Area */
 .my-projects {
   background-color: #f0f0f0;
-  background-color: rgb(40, 40, 40);
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(36, 36, 36);
   padding: 6rem 0;
 }
 
@@ -164,9 +151,7 @@ body {
 
 .card {
   border: none;
-  /* background-color: #eeeeee; */
-  background-color: rgb(40, 40, 40);
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(36, 36, 36);
 }
 
 .card-flip > div {
@@ -187,7 +172,7 @@ body {
 }
 
 .card-front .card-title {
-  color: #36ddfa;
+  color: #6dbafd;
 }
 
 .card-front .card-text {
@@ -200,6 +185,8 @@ body {
   position: absolute;
   top: 0;
   box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 255, 191, 0.3);
+
+  border-radius: 0.4rem;
 }
 
 .card-back .card-body {
@@ -216,6 +203,7 @@ body {
 
 .card-back .card-body a {
   color: #073802;
+
   /* font-size: 3rem; */
 }
 
@@ -248,15 +236,21 @@ body {
     background-color: lightgreen;
   }
 } */
+.each-skill img {
+  opacity: 0.65;
+}
+
 .each-skill img:hover {
   transform: scale(1.2);
+  opacity: 1;
+  cursor: pointer;
+
   -webkit-transition: transform 0.4s ease-in;
 }
 
 .site-main .my-about {
   background-color: #e5e5e5;
-  background-color: rgb(46, 46, 46);
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(32, 32, 32);
   padding: 6rem 0rem;
 }
 
@@ -278,12 +272,12 @@ body {
 
 .site-main .my-about .my-about-intro .my-intro h3 {
   font-family: cursive;
-
   color: whitesmoke;
 }
 
 .site-main .my-about .my-about-intro .my-intro h5 {
   font-family: myBal;
+  padding: 1rem;
   background: linear-gradient(
     to right,
     #db6860,
@@ -345,9 +339,7 @@ body {
 .footer {
   /* background: url(../img/background/connectme-medium.jpg) no-repeat 0% 55%; */
   padding: 5em 0 2em 0;
-  background-color: #e5e5e5;
-  background-color: rgb(46, 46, 46);
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(32, 32, 32);
   min-height: 120px;
 }
 
@@ -378,12 +370,13 @@ body {
 
 .social-icons a i {
   color: #6dbafd;
-
+  cursor: pointer;
   size: 4rem;
 }
 
 .social-icons a i:hover {
   transform: scale(1.7);
+  cursor: pointer;
   transition: ease-in 0.4s;
 }
 
@@ -394,15 +387,14 @@ body {
   top: -1px;
   left: 0;
   right: 0;
-  background: #ffffff;
+  background: rgba(245, 245, 245, 0.808);
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   z-index: 999;
   transition: background 0.8s ease-in-out;
 }
 
 .site-main .my-hobbies {
-  background-color: rgb(40, 40, 40);
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(36, 36, 36);
   padding: 5rem 0rem;
 }
 .site-main .my-hobbies .row {
@@ -428,6 +420,7 @@ body {
 }
 .site-main .my-hobbies-link a:hover {
   border-bottom: 0.08rem white solid;
+
   text-decoration: none;
 }
 .site-main .my-hobbies .carousel .photo-row {
