@@ -51,10 +51,10 @@
                     <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#my-about">Me</a>
+                    <a class="nav-link" href="#my-projects">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#my-projects">Projects</a>
+                    <a class="nav-link" href="#my-about">Me</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./photos.html">Hobbies</a>
@@ -66,7 +66,7 @@
                 <ul class="cv-ul navbar-nav">
                   <li class="cv-item nav-item">
                     <a class="cv-link nav-link" href="./cv/shreyniraulaCV.pdf"
-                      >download My CV</a
+                      >download CV</a
                     >
                   </li>
                 </ul>
@@ -78,12 +78,19 @@
           <div class="container">
             <div class="row">
               <div
-                class="banner-intro-column my-auto text-center col-lg-6 col-md-12 site-title"
+                class="banner-intro-column text-center col-lg-6 col-md-12 site-title"
               >
                 <!-- <h4 class="title-text">नमस्ते●Hello●ハロー</h4> -->
-                <h1 id="aluarin" class="title-text text-uppercase my-3">
-                  Shrey Niraula
-                </h1>
+                <div class="aluarin-animation">
+                  <h1
+                    data-text="Shrey Niraula"
+                    id="aluarin"
+                    class="title-text text-uppercase my-3 randoma"
+                  >
+                    Shrey Niraula
+                  </h1>
+                </div>
+
                 <div></div>
                 <h3 id="mini-aluarin">
                   ML and Web Enthusiats
@@ -94,7 +101,7 @@
 
               <!-- 5-1-5 for lg(offset 1) and 12 for md-->
               <div
-                class="banner-image-column my-auto text-center col-lg-6 col-md-12 banner-image"
+                class="banner-image-column mt-3 text-center col-lg-6 col-md-12 banner-image"
               >
                 <img
                   src="./img/background/topper.png"
@@ -119,16 +126,16 @@
           <div class="row">
             <div class="my-projects-title col-lg-12 text-center">
               <h1 class="text-uppercase title-text">Projects</h1>
-              <p class="para">
+              <!-- <p class="para">
                 Projects carried out by me
-              </p>
+              </p> -->
             </div>
           </div>
-          <div class="container projects-list mt-3 py-3">
+          <div class="container projects-list">
             <div class="row">
               <!-- 1st project -->
               <div
-                class="my-each-project px-lg-2 py-2 col-lg-3 col-md-6 col-sm-12"
+                class="my-each-project px-lg-2 py-2 col-lg-4 col-md-6 col-sm-12"
               >
                 <div class="card card-flip h-100 text-center">
                   <div class="card-front">
@@ -139,23 +146,61 @@
                       <p class="card-text">
                         Data Collection and Simulation Task
                       </p>
+
                       <!-- <i class="fa fa-redo text-center"></i> -->
                     </div>
                   </div>
                   <div class="card-back bg-white">
                     <div class="card-body">
-                      <h4 class="card-title text-uppercase font-roboto">
-                        Precision Livestock Farming
-                      </h4>
-                      <p class="card-text">
-                        Behavior Analysis of poultry and automation of equipment
-                        needed in poultry farm.
-                      </p>
-                      <a
-                        href="https://github.com/AwaleSajil/PrecisionLivestockFarming"
-                        class="btn btn-sm-outline-secondary"
-                        ><i class="fa fa-github fa-lg"></i
-                      ></a>
+                      <div class="card-back-title">
+                        <h4 class="card-title text-uppercase font-roboto">
+                          Precision Livestock Farming
+                        </h4>
+                      </div>
+                      <div class="card-back-text">
+                        <p class="card-text">
+                          Behavior Analysis of poultry and automation of
+                          equipment needed in poultry farm.
+                        </p>
+                      </div>
+                      <div class="card-back-teams">
+                        <h6>Teams</h6>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/nischal.jpg"
+                            alt="nischal"
+                            title="073BEX421 Nischal Maharjan"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/rashik.jpg"
+                            alt="rashik"
+                            title="073BEX432 Rashik Shrestha"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/sajil.jpg"
+                            alt="sajil"
+                            title="073BEX436 Sajil Awale"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/shrey.jpg"
+                            alt="rashik"
+                            title="073BEX443 (Me)"
+                        /></a>
+                      </div>
+                      <div class="card-back-link">
+                        <a
+                          href="https://github.com/AwaleSajil/PrecisionLivestockFarming"
+                          class="btn btn-sm-outline-secondary"
+                          ><i class="fa fa-github fa-lg"></i
+                        ></a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -163,7 +208,7 @@
 
               <!-- 2nd project  -->
               <div
-                class="my-each-project px-lg-2 py-2 col-lg-3 col-md-6 col-sm-12"
+                class="my-each-project px-lg-2 py-2 col-lg-4 col-md-6 col-sm-12"
               >
                 <div class="card card-flip text-center h-100">
                   <div class="card-front">
@@ -179,25 +224,63 @@
                   </div>
                   <div class="card-back bg-white">
                     <div class="card-body">
-                      <h4 class="card-title text-uppercase font-roboto">
-                        Traffic Junction Simulation
-                      </h4>
-                      <p class="card-text">
-                        Real time synchronization of traffic signals and its
-                        simulation on webapp.
-                      </p>
-                      <a
-                        href="https://github.com/ShreyNiraula/Tragnal"
-                        class="github btn btn-sm-outline-secondary"
-                        ><i class="fa fa-github fa-lg"></i
-                      ></a>
+                      <div class="card-back-title">
+                        <h4 class="card-title text-uppercase font-roboto">
+                          Traffic Junction Simulation
+                        </h4>
+                      </div>
+                      <div class="card-back-text">
+                        <p class="card-text">
+                          Real time synchronization of traffic signals and its
+                          simulation on webapp.
+                        </p>
+                      </div>
+
+                      <div class="card-back-teams">
+                        <h6>Teams</h6>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/nischal.jpg"
+                            alt="nischal"
+                            title="073BEX421 Nischal Maharjan"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/rashik.jpg"
+                            alt="rashik"
+                            title="073BEX432 Rashik Shrestha"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/sajil.jpg"
+                            alt="sajil"
+                            title="073BEX436 Sajil Awale"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/shrey.jpg"
+                            alt="rashik"
+                            title="073BEX443 (Me)"
+                        /></a>
+                      </div>
+                      <div class="card-back-link">
+                        <a
+                          href="https://github.com/ShreyNiraula/Tragnal"
+                          class="github btn btn-sm-outline-secondary"
+                          ><i class="fa fa-github fa-lg"></i
+                        ></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div
-                class="my-each-project px-lg-2 py-2 col-lg-3 col-md-6 col-sm-12"
+                class="my-each-project px-lg-2 py-2 col-lg-4 col-md-6 col-sm-12"
               >
                 <div class="card card-flip text-center h-100">
                   <div class="card-front">
@@ -213,22 +296,61 @@
                   </div>
                   <div class="card-back bg-white">
                     <div class="card-body">
-                      <h4 class="card-title text-uppercase font-roboto">
-                        ABU Robocon 2019
-                      </h4>
-                      <p class="card-text">
-                        Group project where ABU Robon stage 2019 was created for
-                        simulation purpose.
-                      </p>
-                      <!-- <a href="#" class="btn btn-sm-outline-secondary"
+                      <div class="card-back-title">
+                        <h4 class="card-title text-uppercase font-roboto">
+                          ABU Robocon 2019
+                        </h4>
+                      </div>
+                      <div class="card-back-text">
+                        <p class="card-text">
+                          Group project where ABU Robon stage 2019 was created
+                          for simulation purpose.
+                        </p>
+                      </div>
+
+                      <div class="card-back-teams">
+                        <h6>Teams</h6>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/nischal.jpg"
+                            alt="nischal"
+                            title="073BEX421 Nischal Maharjan"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/rashik.jpg"
+                            alt="rashik"
+                            title="073BEX432 Rashik Shrestha"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/sajil.jpg"
+                            alt="sajil"
+                            title="073BEX436 Sajil Awale"
+                        /></a>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/shrey.jpg"
+                            alt="rashik"
+                            title="073BEX443 (Me)"
+                        /></a>
+                      </div>
+                      <div class="card-back-link">
+                        <!-- <a href="#" class="btn btn-sm-outline-secondary"
                         >github link</a
                       > -->
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
               <div
-                class="my-each-project px-lg-2 py-2 col-lg-3 col-md-6 col-sm-12"
+                class="my-each-project px-lg-2 py-2 col-lg-4 col-md-6 col-sm-12"
               >
                 <div class="card card-flip h-100 text-center">
                   <div class="card-front">
@@ -244,18 +366,105 @@
                   </div>
                   <div class="card-back bg-white">
                     <div class="card-body">
+                      <div class="card-back-title">
+                        <h4 class="card-title text-uppercase font-roboto">
+                          Covid-19 Worldmap
+                        </h4>
+                      </div>
+                      <div class="card-back-text">
+                        <p class="card-text">
+                          Simple Mini project to learn React and Redux with api
+                          data fetched from https://covid19api.com/
+                        </p>
+                      </div>
+
+                      <div class="card-back-teams">
+                        <h6>Teams</h6>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/shrey.jpg"
+                            alt="rashik"
+                            title="073BEX443 (Me)"
+                        /></a>
+                      </div>
+                      <div class="card-back-link">
+                        <a
+                          href="https://covid-19worldmap.herokuapp.com/"
+                          class="btn btn-sm-outline-secondary"
+                          ><i class="fa fa-globe fa-lg"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="my-each-project px-lg-2 py-2 col-lg-4 col-md-6 col-sm-12"
+              >
+                <div class="card card-flip h-100 text-center">
+                  <div class="card-front">
+                    <div class="card-body">
                       <h4 class="card-title text-uppercase font-roboto">
-                        Covid-19 Worldmap
+                        Blind Eye
                       </h4>
                       <p class="card-text">
-                        Simple Mini project to learn React and Redux with api
-                        data fetched from https://covid19api.com/
+                        Hackathon project including wearable VR like glass and
+                        navigation app.
                       </p>
-                      <a
-                        href="https://covid-19worldmap.herokuapp.com/"
-                        class="btn btn-sm-outline-secondary"
-                        ><i class="fa fa-globe fa-lg"></i
-                      ></a>
+                      <!-- <i class="fa fa-redo text-center"></i> -->
+                    </div>
+                  </div>
+                  <div class="card-back bg-white">
+                    <div class="card-body">
+                      <div class="card-back-title">
+                        <h4 class="card-title text-uppercase font-roboto">
+                          Blind Eye
+                        </h4>
+                      </div>
+                      <div class="card-back-text">
+                        <p class="card-text">
+                          Group Project carried on theme of disable friendly
+                          projects focused to provide voice navigation using the
+                          sensor reading from custom made wearable sensor
+                          mounted glass for blind person.
+                        </p>
+                      </div>
+
+                      <div class="card-back-teams">
+                        <h6>Teams</h6>
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/jk.jpg"
+                            alt="JK"
+                            title="073BEX414 Jay Kishan Panjiyar"
+                        /></a>
+
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/sajil.jpg"
+                            alt="sajil"
+                            title="073BEX436 Sajil Awale"
+                        /></a>
+
+                        <a href="https://www.facebook.com"
+                          ><img
+                            class="avatar"
+                            src="./img/teams/shrey.jpg"
+                            alt="rashik"
+                            title="073BEX443 (Me)"
+                        /></a>
+                      </div>
+                      <div class="card-back-link">
+                        <!-- <a
+                          href="https://covid-19worldmap.herokuapp.com/"
+                          class="btn btn-sm-outline-secondary"
+                          ><i class="fa fa-globe fa-lg"></i
+                        ></a> -->
+                      </div>
                     </div>
                   </div>
                 </div>

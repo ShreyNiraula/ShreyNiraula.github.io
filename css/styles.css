@@ -67,6 +67,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  border-bottom: 0.06rem transparent solid;
 }
 
 .header_area .main-menu .navbar-nav a:hover {
@@ -109,12 +110,13 @@ body {
 }
 
 .site-main .my-banner .banner-intro-column {
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .site-main .banner-image img {
+  padding-top: 5rem;
   height: 100%;
-  width: 20rem;
+  width: 25rem;
 }
 
 .site-main .my-banner .banner-button {
@@ -142,6 +144,8 @@ body {
 .my-projects {
   background-color: #f0f0f0;
   background-color: rgb(36, 36, 36);
+  background-color: rgb(228, 228, 228);
+
   padding: 6rem 0;
 }
 
@@ -151,7 +155,8 @@ body {
 
 .card {
   border: none;
-  background-color: rgb(36, 36, 36);
+  /* background-color: rgb(36, 36, 36); */
+  background-color: transparent;
 }
 
 .card-flip > div {
@@ -167,8 +172,9 @@ body {
 .card-front {
   transform: rotateY(0deg);
   background-color: #f7fbff;
-  box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 255, 0.4);
+  box-shadow: 0.2rem 0.2rem 0.8rem #6dbafd;
   border-radius: 0.4rem;
+  align-items: center;
 }
 
 .card-front .card-title {
@@ -176,7 +182,7 @@ body {
 }
 
 .card-front .card-text {
-  color: #4622a8;
+  color: #2241a8;
 }
 
 .card-back {
@@ -199,6 +205,24 @@ body {
 
 .card-back .card-text {
   color: #05be4c;
+}
+.card-back .card-back-teams {
+  margin: 1rem 0 0 0;
+  padding: 0.5rem 0 0 0;
+}
+.card-back .card-back-teams img {
+  margin: 1rem 0 0 0;
+}
+.card-back .card-back-teams .card-back-link {
+  margin: 1rem 0 0 0;
+}
+
+.card-back .card-back-teams .avatar {
+  margin: 0 0.25rem;
+  vertical-align: middle;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
 .card-back .card-body a {
@@ -230,6 +254,15 @@ body {
     height: 45vh;
   }
 }
+
+/* for ipad pro !!!  */
+/* @media (height: 1024px) {
+  .my-each-project {
+    height: 30vh;
+    background-color: red;
+    border: 2rem blue solid;
+  }
+} */
 
 /* @media (min-width: 480px) {
   body {
@@ -395,6 +428,7 @@ body {
 
 .site-main .my-hobbies {
   background-color: rgb(36, 36, 36);
+  background-color: rgb(228, 228, 228);
   padding: 5rem 0rem;
 }
 .site-main .my-hobbies .row {
@@ -408,10 +442,12 @@ body {
 
 .site-main .my-hobbies-text {
   margin: 1rem 0 0 0;
-  color: #e5e5e5;
+  color: rgb(36, 36, 36);
+  font-size: 1.4rem;
 }
 .site-main .my-hobbies-link {
   margin: 1rem 0 0 0;
+  font-size: 1.2rem;
   padding-bottom: 0.3rem;
 }
 .site-main .my-hobbies-link a {
@@ -419,7 +455,7 @@ body {
   cursor: pointer;
 }
 .site-main .my-hobbies-link a:hover {
-  border-bottom: 0.08rem white solid;
+  border-bottom: 0.08rem rgb(36, 36, 36) solid;
 
   text-decoration: none;
 }
@@ -430,6 +466,9 @@ body {
 .site-main .my-hobbies .carousel .photo-img {
   margin: 2rem 0;
 }
+.site-main .my-hobbies .carousel .photo-img img {
+  border-radius: 0.85rem;
+}
 .site-main .my-hobbies .carousel .about-photo {
   margin: 0.25rem 0;
   text-align: center;
@@ -439,3 +478,69 @@ body {
   text-align: center;
   color: #6dbafd;
 }
+.site-main .my-hobbies .carousel .about-photo p {
+  color: rgb(36, 36, 36);
+}
+
+/* multi  */
+/* .tracking-in-contract-bck {
+  animation: infinite tracking-in-contract-bck 10s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  80% {
+    letter-spacing: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+.aluarin-animation {
+  position: relative;
+}
+/* 
+.randoma {
+  transform: translate(-40%, -50px);
+  color: transparent;
+}
+
+.randoma:before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.603);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typesho 6s steps(50) infinite, blink 1s infinite;
+}
+@keyframes typesho {
+  0%,
+  100% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+}
+@keyframes blink {
+  0%,
+  100% {
+    border-right: 4px solid transparent;
+  }
+  50% {
+    border-right: 4px solid #222;
+  }
+} */

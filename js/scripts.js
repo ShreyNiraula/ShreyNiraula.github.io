@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const nav_offset_top = $(".header_area").height() + 50;
+  const nav_offset_top = $(".header_area").height() + 300;
   function navbarFixed() {
     if ($(".header_area").length) {
       $(window).scroll(function () {
