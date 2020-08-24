@@ -30,12 +30,12 @@ $(document).ready(function () {
     return false;
   });
 
-  $(".photo-gallery .button-gallery #btn1").trigger("click");
+  // $(".photo-gallery .button-gallery #btn1").trigger("click");
 
-  $(".photo-gallery .photo-row .test-popup-link").magnificPopup({
-    type: "image",
-    gallery: { enabled: true },
-  });
+  // $(".photo-gallery .photo-row .test-popup-link").magnificPopup({
+  //   type: "image",
+  //   gallery: { enabled: true },
+  // });
 
   // owl carousel
   $(".site-main .my-hobbies .owl-carousel").owlCarousel({
