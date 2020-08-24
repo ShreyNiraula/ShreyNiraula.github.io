@@ -125,17 +125,24 @@ body {
   border: none;
   text-transform: uppercase;
   border-bottom: 0.03rem transparent solid;
-  padding: 0.3rem 0.5rem;
+  margin: 0.3rem 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
 }
 .photo-gallery .button-gallery button:hover {
   color: rgb(228, 228, 228);
-  border-bottom: 0.03rem #6dbafd solid;
 }
 .photo-gallery .button-gallery .active {
   color: rgb(228, 228, 228);
+  color: rgb(36, 36, 36);
   border: none !important;
   border-bottom: 0.03rem #6dbafd solid;
+  background-color: #6dbafd;
 }
+.photo-gallery .button-gallery button:focus {
+  outline: 0;
+}
+
 img {
   padding-top: 1em;
   /* only this is needed to expand the image using full column */
@@ -143,6 +150,7 @@ img {
   /* filter: grayscale(0.4) brightness(1); */
   cursor: pointer;
   transition: 0.3s linear;
+  border-radius: 0.4rem;
 }
 
 .footer {
