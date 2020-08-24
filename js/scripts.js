@@ -13,6 +13,30 @@ $(document).ready(function () {
     }
   }
 
+  // filter gallery
+  let $btns = $(".photo-gallery .button-gallery button");
+
+  $btns.click(function (e) {
+    // remove class from everything and add class ='active' to only clicked one
+    $(".photo-gallery .button-gallery button").removeClass("active");
+    e.target.classList.add("active");
+
+    // make isotope filter to select the whole row that contains ohotos
+    let selector = $(e.target).attr("data-filter");
+    $(".photo-gallery .photo-row").isotope({
+      filter: selector,
+    });
+
+    return false;
+  });
+
+  $(".photo-gallery .button-gallery #btn1").trigger("click");
+
+  $(".photo-gallery .photo-row .test-popup-link").magnificPopup({
+    type: "image",
+    gallery: { enabled: true },
+  });
+
   // owl carousel
   $(".site-main .my-hobbies .owl-carousel").owlCarousel({
     loop: true,

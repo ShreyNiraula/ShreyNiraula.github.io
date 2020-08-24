@@ -70,13 +70,30 @@ body {
 }
 
 /* Banner Area */
+
 #aluarin {
-  color: white;
+  color: rgba(255, 255, 255, 0.603);
   font-size: 4rem;
 }
 
 #mini-aluarin {
-  color: #99377c;
+  background: linear-gradient(
+    to right,
+    #db6860,
+    #e17288,
+    #db82ad,
+    #cd94c9,
+    #bda7dc,
+    #b1a7e2,
+    #a3a8e7,
+    #92a9eb,
+    #7f99ed,
+    #6e89ef,
+    #5d78ef,
+    #4f67ee
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 2rem;
 }
 
@@ -98,13 +115,28 @@ body {
   background-color: rgb(36, 36, 36);
 }
 
-.col-photos {
-  padding: 0 1em;
+.photo-gallery .button-gallery {
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
-
+.photo-gallery .button-gallery button {
+  color: #6dbafd;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+}
+.photo-gallery .button-gallery button:hover {
+  color: rgb(228, 228, 228);
+  /* border-bottom: 0.03rem #6dbafd solid; */
+  /* border-bottom: 1rem red solid; */
+}
+.photo-gallery .button-gallery .active {
+  color: rgb(228, 228, 228);
+  border: none !important;
+  /* border: 1rem red solid; */
+}
 img {
   padding-top: 1em;
-  border-radius: 1.2rem;
   /* only this is needed to expand the image using full column */
   width: 100%;
   /* filter: grayscale(0.4) brightness(1); */
