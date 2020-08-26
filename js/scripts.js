@@ -5,6 +5,8 @@ $(document).ready(function () {
       $(window).scroll(function () {
         const scroll = $(window).scrollTop();
         if (scroll >= nav_offset_top) {
+          console.log("entered");
+
           $(".header_area .main-menu").addClass("navbar_fixed");
         } else {
           $(".header_area .main-menu").removeClass("navbar_fixed");
@@ -12,24 +14,6 @@ $(document).ready(function () {
       });
     }
   }
-
-  // filter gallery
-  let $btns = $(".photo-gallery .button-gallery button");
-
-  $btns.click(function (e) {
-    // remove class from everything and add class ='active' to only clicked one
-    $(".photo-gallery .button-gallery button").removeClass("active");
-    e.target.classList.add("active");
-
-    // make isotope filter to select the whole row that contains ohotos
-    let selector = $(e.target).attr("data-filter");
-    $(".photo-gallery .photo-row").isotope({
-      filter: selector,
-    });
-
-    return false;
-  });
-
   // owl carousel
   $(".site-main .my-hobbies .owl-carousel").owlCarousel({
     loop: true,

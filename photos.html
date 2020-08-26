@@ -17,9 +17,6 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-
-    <link rel="stylesheet" href="./css/all.min.css" />
-
     <link rel="stylesheet" href="./css/photos.css" />
     <!-- endbuild -->
   </head>
@@ -29,7 +26,7 @@
       <section class="nav-banner">
         <header class="header_area">
           <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <nav class="navbar navbar-expand-lg navbar-light">
               <button
                 class="navbar-toggler"
                 type="button"
@@ -44,21 +41,28 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="./index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html#my-about">Me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html#my-projects"
+                    <a class="nav-link" href="./index.html#my-projects"
                       >Projects</a
                     >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#my-about">Me</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Hobbies</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#my-contacts">Contacts</a>
+                  </li>
+                </ul>
+                <ul class="cv-ul navbar-nav">
+                  <li class="cv-item nav-item">
+                    <a class="cv-link nav-link" href="./cv/shreyniraulaCV.pdf"
+                      >download CV</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -76,9 +80,7 @@
                 <h1 id="aluarin" class="title-text text-uppercase">
                   My Hobbies
                 </h1>
-                <h3 id="mini-aluarin">
-                  Photography
-                </h3>
+                <h3 id="mini-aluarin">Photography</h3>
                 <br /><br />
               </div>
             </div>
@@ -88,7 +90,7 @@
 
       <section class="photo-gallery">
         <div class="container">
-          <div class="button-gallery">
+          <div class="button-gallery text-center">
             <button type="button" data-filter="*" class="active">All</button>
             <button type="button" data-filter=".nature" class>Nature</button>
             <button type="button" data-filter=".flowers" class>Flowers</button>
@@ -391,8 +393,7 @@
     ></script>
 
     <script src="js/isotope.min.js"></script>
-
-    <script src="js/scripts.js"></script>
+    <script src="./js/photoScripts.js"></script>
     <!-- endbuild -->
   </body>
 </html>
