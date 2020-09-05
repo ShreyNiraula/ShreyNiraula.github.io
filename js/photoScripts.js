@@ -23,7 +23,7 @@ $(document).ready(function () {
     $(".photo-gallery .button-gallery button").removeClass("active");
     e.target.classList.add("active");
 
-    // make isotope filter to select the whole row that contains ohotos
+    // make isotope filter to select the whole row that contains photos
     let selector = $(e.target).attr("data-filter");
     $(".photo-gallery .photo-row").isotope({
       filter: selector,
@@ -31,5 +31,13 @@ $(document).ready(function () {
 
     return false;
   });
+
+  // magnify popup link
+
+  $(".test-popup-link").magnificPopup({
+    type: "image",
+    // other options
+  });
+
   navbarFixed();
 });
