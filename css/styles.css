@@ -168,6 +168,9 @@ body {
   height: 100%;
   margin: 0;
   display: flex;
+  overflow-y: hidden;
+  background-color: #fafffa;
+
 }
 
 .card-front {
@@ -198,7 +201,6 @@ body {
 
 .card-back .card-body {
   background-color: #fafffa;
-  /* overflow-y: scroll; */
 }
 .card-back .card-body::-webkit-scrollbar {
   display: none;
