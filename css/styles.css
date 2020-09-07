@@ -198,6 +198,10 @@ body {
 
 .card-back .card-body {
   background-color: #fafffa;
+  /* overflow-y: scroll; */
+}
+.card-back .card-body::-webkit-scrollbar {
+  display: none;
 }
 
 .card-back .card-title {
