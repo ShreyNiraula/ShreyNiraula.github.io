@@ -67,7 +67,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  border-bottom: 0.075rem transparent solid;
+  /* border-bottom: 0.075rem transparent solid; */
 }
 
 .header_area .main-menu .navbar-nav a:hover {
@@ -75,7 +75,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 0.075rem rgb(36, 36, 36) solid;
+  /* border-bottom: 0.075rem rgb(36, 36, 36) solid; */
 }
 
 /* Banner Area */
@@ -461,7 +461,7 @@ body {
   cursor: pointer;
 }
 .site-main .my-hobbies-link a:hover {
-  border-bottom: 0.08rem rgb(36, 36, 36) solid;
+  /* border-bottom: 0.08rem rgb(36, 36, 36) solid; */
 
   text-decoration: none;
 }

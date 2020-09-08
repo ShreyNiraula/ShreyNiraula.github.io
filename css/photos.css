@@ -62,7 +62,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 0.075rem transparent solid;
+  /* border-bottom: 0.075rem transparent solid; */
 }
 
 .header_area .main-menu .navbar-nav a:hover {
@@ -70,7 +70,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  border-bottom: 0.075rem rgba(255, 255, 255, 0.603) solid;
+  /* border-bottom: 0.075rem rgba(255, 255, 255, 0.603) solid; */
 }
 
 /* Banner Area */
