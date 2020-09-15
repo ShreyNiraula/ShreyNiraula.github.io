@@ -41,7 +41,8 @@ body {
 
 .site-main .nav-banner {
   min-height: 100vh;
-  background: url(../img/background/education-candlejpg.jpg) no-repeat 100% 70%;
+  background: url(../img/background/education-candlejpg.jpg) no-repeat ;
+  background-size:cover;
 }
 
 /* NAVIGATION */
