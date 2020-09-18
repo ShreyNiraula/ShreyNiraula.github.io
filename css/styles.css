@@ -171,7 +171,6 @@ body {
   display: flex;
   overflow-y: hidden;
   background-color: #fafffa;
-
 }
 
 .card-front {
@@ -215,14 +214,14 @@ body {
   color: #05be4c;
 }
 .card-back .card-back-teams {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0 0.7rem 0;
   padding: 0.5rem 0 0 0;
 }
 .card-back .card-back-teams img {
   margin: 1rem 0 0 0;
 }
 .card-back .card-back-teams .card-back-link {
-  margin: 1rem 0 0 0;
+  margin: 1rem 0;
 }
 
 .card-back .card-back-teams .avatar {
