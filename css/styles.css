@@ -47,7 +47,9 @@ body {
 /* BANNER + NAVIGATION */
 .site-main .nav-banner {
   min-height: 100vh;
-  background: url(../img/background/landing.jpg) no-repeat;
+  /* background: url(../img/background/landing.jpg) no-repeat; */
+  background: url(../img/landing/IMG_1480.JPG) no-repeat;
+  opacity: 0.75;
   background-size: cover;
 }
 
