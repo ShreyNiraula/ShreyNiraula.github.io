@@ -41,8 +41,8 @@ body {
 
 .site-main .nav-banner {
   min-height: 100vh;
-  background: url(../img/background/education-candlejpg.jpg) no-repeat ;
-  background-size:cover;
+  background: url(../img/background/education-candlejpg.jpg) no-repeat;
+  background-size: cover;
 }
 
 /* NAVIGATION */
@@ -78,10 +78,10 @@ body {
 
 #aluarin {
   color: rgba(255, 255, 255, 0.603);
-  font-size: 3.5rem;
 }
 
-#mini-aluarin {
+#aluarin {
+  padding-top: 2rem;
   background: linear-gradient(
     to right,
     #db6860,
@@ -99,7 +99,7 @@ body {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 .site-main .my-banner {
