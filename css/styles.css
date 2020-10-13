@@ -89,6 +89,20 @@ body {
   color: rgb(36, 36, 36);
 }
 
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  color: rgba(255, 255, 255, 0.877);
+}
+.navbar_fixed .navbar-toggler-icon {
+  color: rgb(36, 36, 36);
+}
+
 .header_area .main-menu .navbar-nav .active a {
   background: linear-gradient(90deg, #d31d10 0%, 70%, #4f67ee 100%);
   -webkit-background-clip: text;
