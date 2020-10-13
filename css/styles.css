@@ -67,7 +67,7 @@ body {
   /* background: url(../img/background/landing.jpg) no-repeat; */
   background: url(../img/landing/IMG_1491.JPG) no-repeat;
   background-position: 39% 50%;
-  background-attachment: fixed;
+  /* background-attachment: fixed;   IT SEEMS TO MAKE discrete transitions while scrolling */
   /* object-fit: cover; */
   opacity: 1;
   background-size: cover;
