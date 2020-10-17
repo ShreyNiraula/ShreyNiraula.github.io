@@ -61,7 +61,7 @@ body {
 
 /* BANNER + NAVIGATION */
 .site-main .nav-banner {
-  min-height: 100vh;
+  height: 100vh;
   /* transform: translateZ(-5rem); */
   /* transform-style: preserve-3d; */
   /* background: url(../img/background/landing.jpg) no-repeat; */
