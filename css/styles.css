@@ -52,7 +52,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.527);
+  background-color: rgba(0, 0, 0, 0.322);
   /* z-index: 2; */
 }
 .site-main {
@@ -65,7 +65,7 @@ body {
   /* transform: translateZ(-5rem); */
   /* transform-style: preserve-3d; */
   /* background: url(../img/background/landing.jpg) no-repeat; */
-  background: url(../img/landing/IMG_1491.JPG) no-repeat;
+  background: url(../img/landing/IMG_14914mp.JPG) no-repeat;
   background-position: 39% 50%;
   /* background-attachment: fixed;   IT SEEMS TO MAKE discrete transitions while scrolling */
   /* object-fit: cover; */
@@ -321,7 +321,7 @@ body {
 }
 
 .each-skill img:hover {
-  transform: scale(1.2);
+  transform: scale(1.09);
   opacity: 1;
   cursor: pointer;
   -webkit-transition: transform 0.4s ease-in;
@@ -474,14 +474,12 @@ body {
   color: rgb(36, 36, 36);
 }
 
-.navbar_fixed .navbar-toggler{
+.navbar_fixed .navbar-toggler {
   border-color: rgb(36, 36, 36);
-
 }
 
-.navbar_fixed .navbar-toggler-icon
-{
-background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.navbar_fixed .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .site-main .my-hobbies {
