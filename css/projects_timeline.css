@@ -9,7 +9,14 @@
     box-sizing: border-box;
     background-color: rgb(228, 228, 228);
     padding: 6rem 0;
+}
 
+.project_read_more_button {
+    /* border-radius: 8px; */
+    background-color: #fafffa;
+    color: #6dbafd;
+    border-color: transparent;
+    /* box-shadow: 0.2rem 0.2rem 0.8rem #6dbafd; */
 }
 
 .timeline {
