@@ -15,8 +15,7 @@ body {
 
 @font-face {
   font-family: "myPlayFair";
-  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf")
-    format("truetype");
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
@@ -31,9 +30,9 @@ body {
 
 @font-face {
   font-family: "myTitilliumBoldItalic";
-  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf")
-    format("truetype");
+  src: url("../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "myBal";
   src: url("../fonts/Balqis_FDR_300118/Balqis.ttf") format("truetype");
@@ -43,6 +42,7 @@ body {
   font-family: "myRoboto";
   src: url("../fonts//Roboto/Roboto-Bold.ttf") format("truetype");
 }
+
 #overlay {
   position: absolute;
   display: block;
@@ -55,6 +55,7 @@ body {
   background-color: rgba(0, 0, 0, 0.322);
   /* z-index: 2; */
 }
+
 .site-main {
   /* perspective: 1000px; */
 }
@@ -85,6 +86,7 @@ body {
   /* color: rgb(36, 36, 36); */
   color: rgba(255, 255, 255, 0.877);
 }
+
 .header_area .navbar_fixed .nav-item .nav-link {
   color: rgb(36, 36, 36);
 }
@@ -99,6 +101,7 @@ body {
   background-size: 100% 100%;
   color: rgba(255, 255, 255, 0.877);
 }
+
 .navbar_fixed .navbar-toggler-icon {
   color: rgb(36, 36, 36);
 }
@@ -126,21 +129,19 @@ body {
 }
 
 #mini-aluarin {
-  background: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
+  background: linear-gradient(to right,
+      #db6860,
+      #e17288,
+      #db82ad,
+      #cd94c9,
+      #bda7dc,
+      #b1a7e2,
+      #a3a8e7,
+      #92a9eb,
+      #7f99ed,
+      #6e89ef,
+      #5d78ef,
+      #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
@@ -201,7 +202,7 @@ body {
   background-color: transparent;
 }
 
-.card-flip > div {
+.card-flip>div {
   backface-visibility: hidden;
   transition: transform 500ms;
   transition-timing-function: linear;
@@ -242,6 +243,7 @@ body {
 .card-back .card-body {
   background-color: #fafffa;
 }
+
 .card-back .card-body::-webkit-scrollbar {
   display: none;
 }
@@ -253,13 +255,16 @@ body {
 .card-back .card-text {
   color: #05be4c;
 }
+
 .card-back .card-back-teams {
   margin: 1rem 0 0.7rem 0;
   padding: 0.5rem 0 0 0;
 }
+
 .card-back .card-back-teams img {
   margin: 1rem 0 0 0;
 }
+
 .card-back .card-back-teams .card-back-link {
   margin: 1rem 0;
 }
@@ -357,21 +362,19 @@ body {
 .site-main .my-about .my-about-intro .my-intro h5 {
   font-family: myBal;
   padding: 1rem;
-  background: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
+  background: linear-gradient(to right,
+      #db6860,
+      #e17288,
+      #db82ad,
+      #cd94c9,
+      #bda7dc,
+      #b1a7e2,
+      #a3a8e7,
+      #92a9eb,
+      #7f99ed,
+      #6e89ef,
+      #5d78ef,
+      #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: #6dbafd; */
@@ -422,21 +425,19 @@ body {
 }
 
 .my-footer-title h5 {
-  background: linear-gradient(
-    to right,
-    #db6860,
-    #e17288,
-    #db82ad,
-    #cd94c9,
-    #bda7dc,
-    #b1a7e2,
-    #a3a8e7,
-    #92a9eb,
-    #7f99ed,
-    #6e89ef,
-    #5d78ef,
-    #4f67ee
-  );
+  background: linear-gradient(to right,
+      #db6860,
+      #e17288,
+      #db82ad,
+      #cd94c9,
+      #bda7dc,
+      #b1a7e2,
+      #a3a8e7,
+      #92a9eb,
+      #7f99ed,
+      #6e89ef,
+      #5d78ef,
+      #4f67ee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.8rem;
@@ -470,6 +471,7 @@ body {
   z-index: 999;
   transition: background 0.8s ease-in-out;
 }
+
 .navbar_fixed .main-menu .nav-item .nav-link {
   color: rgb(36, 36, 36);
 }
@@ -487,6 +489,7 @@ body {
   background-color: rgb(228, 228, 228);
   padding: 5rem 0rem;
 }
+
 .site-main .my-hobbies .row {
   text-align: center;
 }
@@ -502,39 +505,48 @@ body {
   color: rgb(36, 36, 36);
   font-size: 1.4rem;
 }
+
 .site-main .my-hobbies-link {
   margin: 1rem 0 0 0;
   font-size: 1.2rem;
   padding-bottom: 0.3rem;
 }
+
 .site-main .my-hobbies-link a {
   color: #6dbafd;
   cursor: pointer;
 }
+
 .site-main .my-hobbies-link a:hover {
   /* border-bottom: 0.08rem rgb(36, 36, 36) solid; */
 
   text-decoration: none;
 }
+
 .site-main .my-hobbies .carousel .photo-row {
   color: white;
   padding: 1.5rem 0 0.5rem 0;
 }
+
 .site-main .my-hobbies .carousel .photo-img {
   margin: 2rem 0;
 }
+
 .site-main .my-hobbies .carousel .photo-img img {
   border-radius: 0.85rem;
 }
+
 .site-main .my-hobbies .carousel .about-photo {
   margin: 0.25rem 0;
   text-align: center;
 }
+
 .site-main .my-hobbies .carousel .about-photo h4 {
   margin: 0.25rem 0;
   text-align: center;
   color: #6dbafd;
 }
+
 .site-main .my-hobbies .carousel .about-photo p {
   color: rgb(36, 36, 36);
 }
