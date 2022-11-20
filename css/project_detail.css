@@ -1,0 +1,91 @@
+#my-projects-detail {
+    padding: 6rem 0rem 1rem 0rem;
+    background-color: rgb(32, 32, 32);
+    color: #e5e5e5;
+}
+
+.project_description {
+    padding: 1rem 0rem;
+}
+
+.video_link {
+    text-align: center;
+}
+
+.project_links {
+    margin: 0.5rem 0rem;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+
+
+.project_links a {
+    margin: 0 5rem;
+    color: #6dbafd;
+    text-decoration: none;
+}
+
+.abstract {
+    margin: 2rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.image_areas {
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.image_areas .image_wrapper {
+    align-items: center;
+
+}
+
+.images {
+    text-align: center;
+}
+
+.each_image {
+    margin: 1rem;
+}
+
+.my_role {
+    margin: 2rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.my_role h5 {
+    color: #6dbafd;
+}
+
+.my_role .my_role_summary {
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.my_role .my_role_bullets_each {
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+    margin-left: 1rem;
+}
+
+.my_role .my_role_bullets_each strong {
+    color: #6dbafd;
+}
+
+.team_member_section {
+    background-color: rgb(32, 32, 32);
+    padding: 3rem 0rem;
+}
+
+.card-back-teams {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.card-back-teams .avatar {
+    margin: 0rem 0.8rem 1rem 0.8rem;
+    vertical-align: middle;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}

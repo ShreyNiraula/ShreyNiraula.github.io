@@ -5,19 +5,6 @@
     color: rgb(36, 36, 36, 0.877);
 }
 
-.card-back-teams {
-    align-items: center;
-}
-
-.card-back-teams .avatar {
-    margin: 0rem 0.8rem 1rem 0.8rem;
-    vertical-align: middle;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-}
-
-
 .my-projects-timeline {
     box-sizing: border-box;
     background-color: rgb(228, 228, 228);
