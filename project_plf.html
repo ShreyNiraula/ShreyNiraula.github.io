@@ -20,8 +20,10 @@
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <!-- <link rel="stylesheet" href="." /> -->
 
-    <link rel="stylesheet" href="./css/project_alternate_timeline.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/projects_timeline.css" />
+    <link rel="stylesheet" href="./css/project_detail.css" />
+
 
 
     <!-- loaded here so that this action takes place faster -->
@@ -33,80 +35,279 @@
   <body>
     <!--  ======================= Start Header Area ============================== -->
     <main class="site-main">
+      <section class="nav-banner_without_banner">
+        <header class="header_area">
+          <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./projects_timeline.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html#my-about">Me</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="./photos.html">Photos</a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#my-contacts">Contacts</a>
+                  </li>
+                </ul>
+                <ul class="cv-ul navbar-nav">
+                  <li class="cv-item nav-item">
+                    <a class="cv-link nav-link"
+                      href="https://drive.google.com/drive/folders/1vVeXtwh6b2fMxHeaUINV-HppEEzO8Abk?usp=share_link">download
+                      CV</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </section>
 
-      <section id="my-projects-timeline" class="my-projects-timeline">
+      <section id="my-projects-detail" class="my-projects-detail">
         <div class="container">
           <div class="row">
             <div class="my-projects-title col-lg-12 text-center">
-              <h1 class="text-uppercase title-text">My Projects Timeline</h1>
-              <h6 class="text-uppercase title-text">Click each project to view
-                its details</h6>
-              <!-- <p class="">
-                Projects carried out by me
-              </p> -->
+              <h3 class="text-uppercase title-text">Precision Livestock Farming</h3>
+              <br>
+              <h6 class="text-uppercase title-text">Winner Project in Locus
+                Event 2019, Under Hardware Thematic Category</h6>
+              <h6 class="text-uppercase title-text">2020</h6>
             </div>
           </div>
-          <div class="timeline">
-            <!-- <div class="timeline_container timeline_position_left">
-              <div class="timeline_content">
-                <h5>2020</h5>
+          <div class="project_description">
+            <div class="project_background">
+              SORRY, IT IS UNDER CONSTRUCTION RIGHT NOW!!!
+            </div>
+
+            <!-- <div class="video_link">
+              <iframe
+                src="https://player.vimeo.com/video/757833955?h=f6b17b597f"
+                width="640" height="360" frameborder="0" allow="autoplay;
+                fullscreen" allowfullscreen></iframe>
+            </div>
+
+            <div class="project_links">
+              <div class="row padded_row_container">
+                <div class="col-sm-4 col-xs-12 mt-1">
+                  <a
+                    href="https://drive.google.com/file/d/1lvuPHT_39ZQ7KCuALKRqvdw2jXcDsk9Y/view?usp=share_link">Report</a>
+                </div>
+                <div class="col-sm-4 col-xs-12 mt-1">
+                  <a
+                    href="https://drive.google.com/file/d/1Eo2sRF7BE8US4C0k_DeNbiiNz-j3sdYm/view?usp=share_link">Poster</a>
+                </div>
+                <div class="col-sm-4 col-xs-12 mt-1">
+                  <a
+                    href="https://drive.google.com/file/d/1OfZqfcIp2VZU6zhXoh_O_n8hLJminaei/view?usp=share_link">Slides</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="long_description">
+              <div class="abstract">
+                This project uses camera as its only sensor to build 3d map of
+                entire room and localize
+                itself in the built map. The map can then be used for navigation
+                purposes within the
+                mapped environment. Problems such as dynamically changing
+                environment, varying
+                lightening conditions, lack of textured environment are the
+                hindrances for visual SLAM.
+                Some of these problems has been well tackled in this project.
+                Dynamic objects in the
+                environment have been masked to minimize its effect. Light
+                invariant feature extraction
+                has been used to tackle with variations in lightening
+                conditions.
+              </div>
+
+              <div class="image_areas">
+                <div class="image_wrapper">
+                  <div class="images">
+                    <img src="./img/Projects/Major_Project/turtlebot.png"
+                      class="each_image"
+                      alt="Turtle
+                      Bot"
+                      title="Turtle Bot"/>
+                    <img src="./img/Projects/Major_Project/path_planning.png"
+                      class="each_image"
+                      alt="Path Planning"
+                      title="Path Planning"/>
+                    <img src="./img/Projects/Major_Project/2d_2d_estimation.png"
+                      class="each_image"
+                      alt="Effective 2D-2D correspondence estimation"
+                      title="Effective 2D-2D correspondence estimation"/>
+                    <img src="./img/Projects/Major_Project/masking.png"
+                      class="each_image"
+                      alt="Implication of Mask"
+                      title="Implication of Mask"/>
+                  </div>
+                </div>
+              </div>
+              <div class="my_role">
+                <h5>Dynamic Obstacle Detection Using Semantic Segmentation</h5>
+                <div class="my_role_summary">
+                  Dynamic Obstacle that hinders the visual SLAM has been
+                  tackled
+                  by using Semantic Segmentation Technology. I have been
+                  responsible for this task. My role mainly included carrying
+                  out the Proof of Concepts
+                  (POC) of the existing semantic segmentation models and
+                  train,
+                  fine-tune and employ the model integrating it with the rest
+                  of
+                  the system. <b style="color: #6dbafd;">My roles</b> are:
+                </div>
+                <div class="my_role_bullets">
+                  <div class="my_role_bullets_each">
+                    <strong>Models Comparisons</strong>
+                    <br>
+                    <b>Human</b> was considered as main dynamic object
+                    and
+                    model
+                    was trained to generate the human segmentation
+                    mask. <b>IcNet</b>
+                    was taken as final choice on the basis of Speed vs
+                    mIOU
+                    tradeoff from various models such as: <b>ICNet</b>,
+                    <b>BiSeNetv1</b>,
+                    <b>DeepLabV3plus</b>, <b>UNetPlus</b>.
+                    <div class="images">
+                      <img src="./img/Projects/Major_Project/comparison.png"
+                        class="each_image"
+                        alt="Comparision of Models"
+                        title="Speed vs mIOU tradeoff between semantic
+                        segmentation models"/>
+                    </div>
+                  </div>
+                  <div class="my_role_bullets_each">
+                    <strong>Custom Dataset Generation</strong>
+                    <br>
+                    To fine-tune ICNet model, custom dataset of legs of
+                    human
+                    (since, human legs mainly fall in the vision of robot)
+                    was
+                    created. Both test datasets and validation datasets
+                    were
+                    generated from sequences of images from video of
+                    person
+                    walking on multi environment under various lighting
+                    conditions.
+
+                    In order to label the dataset, instance segmentation
+                    was
+                    performed using pretrained model of <a
+                      href="https://github.com/facebookresearch/detectron2/tree/main/configs/COCO-InstanceSegmentation"
+                      style="color: #6dbafd; text-decoration: none;"><u><b>R50-FPN</b></u></a>
+                    from detectron2 model zoo. Output was twisted to generate
+                    just
+                    binary mask.
+                    <div class="images">
+                      <img src="./img/Projects/Major_Project/dataset.png"
+                        class="each_image"
+                        alt="Generation of Custom Dataset"
+                        title=" Generation of Custom Dataset"/>
+                    </div>
+                  </div>
+                  <div class="my_role_bullets_each">
+                    <strong>Prevention of Overfitting</strong>
+                    <br>
+                    In order to prevent overfit of ICnet model, feature
+                    extracting
+                    backbone was frozen during fine tuning.
+                  </div>
+                </div>
               </div>
             </div> -->
-            <div class="timeline_container timeline_position_right">
-              <div class="timeline_content">
-                <a href="./project_major.html" style="text-decoration:none"><h5>Real
-                    Time Visual Localization and Mapping of Mobile Robot in
-                    Dynamic Environment</h5></a>
-                <h6>2020</h6>
-                <!-- <p>The final year project to localize and navigate robot avoiding the dynamic obstacle (human). My
-                  role was to employ, train and fine-tune image segmentation model to detect the human while
-                  localizing and navigating.</p> -->
-              </div>
-            </div>
-            <div class="timeline_container timeline_position_left">
-              <div class="timeline_content">
-                <a href="./project_minor.html" style="text-decoration:none"><h5>Vehicle
-                    Traffic Management and Analysis</h5></a>
-                <h6>2020</h6>
-                <!-- <p>The minor project to synchronize the traffic lights in 3 Kathmandu junctions. My role was making
-                  webapp to enable realtime simulation of the junctions. The app could link to hardware to
-                  demonstrate traffic light synchronization across the junctions.</p> -->
-              </div>
-            </div>
-            <div class="timeline_container timeline_position_right">
-              <div class="timeline_content">
-                <a href="./project_covid.html" style="text-decoration:none"><h5>Covid-19
-                    Worldmap</h5></a>
+          </div>
+        </div>
+      </section>
 
-                <h6>2020</h6>
-                <!-- <p>Solo Heroku hosted React-Redux mini project where I designed React-Redux based corona dashboard
-                  fetching data from covid19api api</p> -->
+      <section id="team_member_section" class="team_member_section">
+        <div class="container">
+          <div class="row padded_row_container">
+            <div class="my-projects-title col-lg-12 text-center">
+              <h3 class="text-uppercase title-text">Team Members</h3>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card-back-teams">
+                <a href="https://www.nischalmaharjan.info.np/"><img
+                    class="avatar"
+                    src="./img/teams/nischal.jpg"
+                    alt="nischal"
+                    title="073BEX421 Nischal Maharjan"
+                    /></a>
               </div>
             </div>
-            <!-- <div class="timeline_container timeline_position_left">
-              <div class="timeline_content">
-                <h5>2019</h5>
-              </div>
-            </div> -->
-            <div class="timeline_container timeline_position_left">
-              <div class="timeline_content">
-                <a href="./project_plf.html" style="text-decoration:none"><h5>Precision
-                    Livestock Farming</h5></a>
-
-                <h6>2019</h6>
-                <!-- <p>Locus Event project to analyze behavior of chicken and automate/control poultry appliances
-                  with mobile app. My role was developing mobile app that can communicate with hardware
-                  appliances and able to read real time sensor readings.</p> -->
+            <div class="col-md-6 col-lg-3">
+              <div class="card-back-teams">
+                <a href="https://rashik.info.np/"><img
+                    class="avatar"
+                    src="./img/teams/rashik.jpg"
+                    alt="rashik"
+                    title="073BEX432 Rashik Shrestha"
+                    /></a>
               </div>
             </div>
-            <div class="timeline_container timeline_position_right">
-              <div class="timeline_content">
-                <a href="./project_abu.html" style="text-decoration:none"><h5>ABU
-                    Robocon 2019 stage simulator</h5></a>
+            <div class="col-md-6 col-lg-3">
+              <div class="card-back-teams">
+                <a href="https://github.com/AwaleSajil"><img
+                    class="avatar"
+                    src="./img/teams/sajil.jpg"
+                    alt="sajil"
+                    title="073BEX436 Sajil Awale"
+                    /></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card-back-teams">
+                <a href="https://shreyniraula.com.np/"><img
+                    class="avatar"
+                    src="./img/teams/shrey.jpg"
+                    alt="shrey"
+                    title="073BEX443 (Me)"
+                    /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <h6>2019</h6>
-                <!-- <p>Computer Graphics group project in C++ with openGL to stimulate ABU Robocon stage in which
-                  I developed base framework, integrated and compiled friend’s independently tested logic on it.</p> -->
+      <section id="other_projects" class="other_projects">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-6">
+              <div class="previous_project">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i> <a
+                  href="./project_covid.html">Previous
+                  Project</a>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="next_project">
+                <a
+                  href="./project_abu.html">Next
+                  Project</a> <i class="fa fa-chevron-right"
+                  aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -133,7 +334,8 @@
               <div class="d-flex flex-row justify-content-around">
                 <a
                   class="btn btn-social-icon btn-facebook"
-                  href="https://www.facebook.com/shrey.niraula.14"><i class="fa
+                  href="https://www.facebook.com/shrey.niraula.14"><i
+                    class="fa
                     fa-facebook fa-lg"></i></a>
                 <a
                   class="btn btn-social-icon btn-linked"
@@ -141,7 +343,8 @@
                     class="fa fa-linkedin fa-lg"></i></a>
                 <a
                   href="https://github.com/ShreyNiraula"
-                  class="btn btn-social-icon btn-github"><i class="fa fa-github
+                  class="btn btn-social-icon btn-github"><i class="fa
+                    fa-github
                     fa-lg"></i></a>
                 <a
                   class="btn btn-s ocial-icon btn-envelope"

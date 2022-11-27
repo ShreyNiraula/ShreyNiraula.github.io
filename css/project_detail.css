@@ -13,6 +13,10 @@
     margin: 2rem 0rem;
 }
 
+.to_be_blue_color {
+    color: #6dbafd;
+}
+
 .project_links {
     margin: 0.5rem 0rem;
     padding: 0.3rem 0;
@@ -76,6 +80,11 @@
 .team_member_section {
     background-color: rgb(32, 32, 32);
     padding: 3rem 0rem;
+    text-align: center;
+}
+
+.padded_row_container {
+    padding: 0 7rem 0 7rem;
 }
 
 .card-back-teams {
@@ -89,4 +98,26 @@
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+}
+
+.other_projects {
+    padding: 4rem 1rem 1rem 3rem;
+    background-color: rgb(32, 32, 32);
+}
+
+.other_projects a {
+    color: #6dbafd;
+    text-decoration: none;
+}
+
+.other_projects .previous_project {
+    position: relative;
+    color: #6dbafd;
+    text-align: center;
+}
+
+.other_projects .next_project {
+    position: relative;
+    color: #6dbafd;
+    text-align: center;
 }
