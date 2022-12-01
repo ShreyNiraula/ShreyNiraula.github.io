@@ -1,0 +1,110 @@
+#my-works-detail {
+    padding: 6rem 0rem 1rem 0rem;
+    background-color: rgb(32, 32, 32);
+    color: #e5e5e5;
+}
+
+#my-works-title h3 {
+    color: #6dbafd;
+}
+
+.work_description {
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+}
+
+.jds {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.jds ul {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.jds ul li {
+    margin: 1rem 0rem;
+}
+
+.work_summary {
+    margin: 2.5rem 0rem;
+}
+
+.work_summary h5 {
+    color: #6dbafd;
+}
+
+.work_dissections .each_dissection {
+    margin: 3rem 0rem 3.5rem 1rem;
+
+}
+
+.work_dissections .each_dissection h5 {
+    color: #6dbafd;
+}
+
+.skills_so_far {
+    margin: 5rem 0rem;
+}
+
+.skills_so_far h5 {
+    color: #6dbafd;
+}
+
+.to_be_blue_color {
+    color: #6dbafd;
+}
+
+.dissection_content {
+    margin: 1.5rem 0rem;
+}
+
+.dissection_content_tools {
+    margin: 1rem 0rem;
+}
+
+.work_links {
+    margin: 0.5rem 0rem;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+
+
+.work_links a {
+    margin: 0 5rem;
+    color: #6dbafd;
+    text-decoration: none;
+}
+
+.abstract {
+    margin: 2rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.image_areas {
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.image_areas .image_wrapper {
+    align-items: center;
+
+}
+
+.images {
+    text-align: center;
+}
+
+.each_image {
+    margin: 1rem;
+}
+
+.my_role {
+    margin: 2rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.padded_row_container {
+    padding: 0 7rem 0 7rem;
+}
