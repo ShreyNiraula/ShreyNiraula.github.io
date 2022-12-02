@@ -1,0 +1,72 @@
+#my-projects-detail {
+    padding: 6rem 0rem 1rem 0rem;
+    background-color: rgb(32, 32, 32);
+    color: #e5e5e5;
+}
+
+.project_description {
+    padding: 1rem 0rem;
+}
+
+.video_link {
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.to_be_blue_color {
+    color: #6dbafd;
+}
+
+.project_links {
+    margin: 0.5rem 0rem;
+    padding: 0.3rem 0;
+    text-align: center;
+}
+
+
+.project_links a {
+    margin: 0 5rem;
+    color: #6dbafd;
+    text-decoration: none;
+}
+
+.abstract {
+    margin: 2rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.image_areas {
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.image_areas .image_wrapper {
+    align-items: center;
+
+}
+
+.images {
+    text-align: center;
+}
+
+.each_image {
+    margin: 1rem;
+}
+
+.my_role {
+    margin: 1rem 0rem;
+    padding: 0.5rem 0;
+}
+
+.my_role h5{
+    color: #6dbafd;
+    margin: 1.5rem 0rem;
+}
+
+.my_role_summary{
+    padding-left: 1rem;
+}
+
+.participation_img{
+    margin: 1.5rem 0rem;
+}
