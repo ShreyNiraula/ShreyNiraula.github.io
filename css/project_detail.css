@@ -13,6 +13,11 @@
     margin: 2rem 0rem;
 }
 
+.gif_container {
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
 .to_be_blue_color {
     color: #6dbafd;
 }
@@ -47,10 +52,6 @@
 
 .images {
     text-align: center;
-}
-
-.each_image {
-    margin: 1rem;
 }
 
 .my_role {

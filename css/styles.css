@@ -554,3 +554,7 @@ body {
 .aluarin-animation {
   position: relative;
 }
+
+.each_image {
+  margin: 1rem 0.5rem 1rem 0.5rem;
+}

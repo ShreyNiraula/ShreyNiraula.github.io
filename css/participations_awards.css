@@ -49,24 +49,20 @@
     text-align: center;
 }
 
-.each_image {
-    margin: 1rem;
-}
-
 .my_role {
     margin: 1rem 0rem;
     padding: 0.5rem 0;
 }
 
-.my_role h5{
+.my_role h5 {
     color: #6dbafd;
     margin: 1.5rem 0rem;
 }
 
-.my_role_summary{
+.my_role_summary {
     padding-left: 1rem;
 }
 
-.participation_img{
+.participation_img {
     margin: 1.5rem 0rem;
 }
